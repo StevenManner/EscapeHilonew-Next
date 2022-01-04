@@ -97,11 +97,11 @@ const Home = () => {
                 </span>
               </div>
             </div>
-            <div className="container09"></div>
+            <button className="button1 button">Book Your Escape Today!</button>
             <div className="work-with-us">
-              <div className="container10">
+              <div className="container09">
                 <h3 className="text16 healine">
-                  A few words from our past winners
+                  Not convinced? Hear from our previous winners!
                 </h3>
                 <span className="text17">
                   <span className="text18">
@@ -138,14 +138,13 @@ const Home = () => {
                 </span>
                 <span className="text27">Check Notus PRO React!</span>
               </div>
-              <div className="container11">
-                <div className="container12">
-                  <img
-                    alt="image"
-                    src="/playground_assets/blue_wave.svg"
-                    className="image02"
-                  />
-                </div>
+              <div className="container10">
+                <div className="container11"></div>
+                <img
+                  alt="image"
+                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
+                  className="image02"
+                />
                 <h4 className="text28 healine">Five Star Reviews on Google!</h4>
                 <span className="text29">
                   <span>
@@ -164,8 +163,8 @@ const Home = () => {
         </div>
         <div className="section2">
           <div className="team">
-            <div className="container13">
-              <div className="container14">
+            <div className="container12">
+              <div className="container13">
                 <img
                   alt="image"
                   src="/playground_assets/ryan_2-200h.png"
@@ -192,7 +191,7 @@ const Home = () => {
                   <span>Good luck!</span>
                 </span>
               </div>
-              <div className="container15">
+              <div className="container14">
                 <img
                   alt="image"
                   src="/playground_assets/ryan_3-200h.png"
@@ -222,7 +221,7 @@ const Home = () => {
               </div>
               <Link href="/profile">
                 <a className="link">
-                  <div className="container16">
+                  <div className="container15">
                     <img
                       alt="image"
                       src="/playground_assets/ryan_4-200h.png"
@@ -248,7 +247,7 @@ const Home = () => {
               </Link>
               <Link href="/profile">
                 <a className="link1">
-                  <div className="container17">
+                  <div className="container16">
                     <img
                       alt="image"
                       src="/playground_assets/ryan_5-200h.png"
@@ -276,14 +275,14 @@ const Home = () => {
         </div>
         <div className="section21">
           <div className="team1">
-            <div className="container18">
-              <div className="container19">
+            <div className="container17">
+              <div className="container18">
                 <img
                   alt="image"
-                  src="/playground_assets/ryan_2-200h.png"
+                  src="/playground_assets/ryan_61-200h.png"
                   className="image12"
                 />
-                <span className="text44">Ramses G.</span>
+                <span className="text44">Chiara Avvento</span>
                 <img
                   alt="image"
                   src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
@@ -298,13 +297,13 @@ const Home = () => {
                   </span>
                 </span>
               </div>
-              <div className="container20">
+              <div className="container19">
                 <img
                   alt="image"
-                  src="/playground_assets/ryan_3-200h.png"
+                  src="/playground_assets/ryan_7-200h.png"
                   className="image14"
                 />
-                <span className="text47">Julie R.</span>
+                <span className="text47">Rachel Lewis</span>
                 <img
                   alt="image"
                   src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
@@ -312,29 +311,23 @@ const Home = () => {
                 />
                 <span className="text48">
                   <span>
-                    {' '}
-                    Our family had an absolute blast!! The escape room was super
-                    well done, a perfect mix of challenges &amp; fun. The owner
-                    Ryan has to be one of the nicest people on the planet,
-                    making our experience even more fun :) I would definitely
-                    recommend!
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
+                    We have never done an escape room before, so had no idea
+                    what to expect. Booking online was easy. Ryan, the owner and
+                    âhostâ was enthusiastic the whole time and genuinely seemed
+                    to enjoy his work. . If you need something to do on a rainy
+                    day in Hilo, this is a fun option!
                   </span>
                 </span>
               </div>
               <Link href="/profile">
                 <a className="link2">
-                  <div className="container21">
+                  <div className="container20">
                     <img
                       alt="image"
-                      src="/playground_assets/ryan_4-200h.png"
+                      src="/playground_assets/ryan_8-200h.png"
                       className="image16"
                     />
-                    <span className="text50">Brandon Hoffman</span>
+                    <span className="text50">Natalia Gula</span>
                     <img
                       alt="image"
                       src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
@@ -342,11 +335,13 @@ const Home = () => {
                     />
                     <span className="text51">
                       <span>
-                        What a cool place. Every escape room has its own
-                        uniqueness. This one did not disappoint. The game master
-                        is really cool and exciting. The theme is great. Canât
-                        give away any details or it will ruin the fun.
-                        Definitely recommend.
+                        I had never tried an escape room before, but thought it
+                        would be a fun team building activity for my staff and
+                        I. We all had a blast. Ryan, our host, was delightful,
+                        and the clues, surprises, and riddles were great. So, if
+                        you are looking for a fun, different, bonding adventure
+                        to do with your family or co-workers, I heartily
+                        recommend the Escape Room!
                       </span>
                     </span>
                   </div>
@@ -354,13 +349,13 @@ const Home = () => {
               </Link>
               <Link href="/profile">
                 <a className="link3">
-                  <div className="container22">
+                  <div className="container21">
                     <img
                       alt="image"
-                      src="/playground_assets/ryan_5-200h.png"
+                      src="/playground_assets/ryan_9-200h.png"
                       className="image18"
                     />
-                    <span className="text53">Tiffany Plagenza</span>
+                    <span className="text53">Jennie Joslin</span>
                     <img
                       alt="image"
                       src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
@@ -368,10 +363,10 @@ const Home = () => {
                     />
                     <span className="text54">
                       <span>
-                        We escaped! This was the most fun we have had with a
-                        great challenge. We came to Hilo, Hawaii just to visit
-                        this escape room after attempting to escape the Samurai
-                        room 2 years ago. 5 star experience â­ï¸
+                        Great puzzles, fun theme and an awesome host! We had
+                        such a great time, highly recommend. The room is
+                        creative and puzzles were clever. Canât wait to try his
+                        next room
                       </span>
                     </span>
                   </div>
@@ -448,6 +443,7 @@ const Home = () => {
             color: #ffffff;
             font-style: normal;
             font-weight: 700;
+            border-width: 0px;
             background-color: #39b300;
           }
           .image {
@@ -688,14 +684,12 @@ const Home = () => {
             font-family: Open Sans;
             line-height: 1.625rem;
           }
-          .container09 {
-            flex: 0 0 auto;
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            height: 100px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+          .button1 {
+            color: #ffffff;
+            font-style: normal;
+            font-weight: 700;
+            border-width: 0px;
+            background-color: #39b300;
           }
           .work-with-us {
             display: flex;
@@ -704,7 +698,7 @@ const Home = () => {
             margin-bottom: var(--dl-space-space-tripleunit);
             flex-direction: row;
           }
-          .container10 {
+          .container09 {
             flex: 0 0 auto;
             width: 41%;
             display: flex;
@@ -740,10 +734,10 @@ const Home = () => {
             font-style: normal;
             font-weight: 700;
           }
-          .container11 {
+          .container10 {
             flex: 0 0 auto;
             width: 33%;
-            height: 462px;
+            height: 100%;
             display: flex;
             position: relative;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
@@ -755,25 +749,24 @@ const Home = () => {
             flex-direction: column;
             background-color: #09A6E9;
           }
-          .container12 {
+          .container11 {
             width: 100%;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             height: 243px;
             display: flex;
-            align-items: flex-end;
+            align-items: stretch;
             border-radius: 0px;
-            flex-direction: column;
+            flex-direction: row;
             background-size: cover;
-            justify-content: flex-end;
+            justify-content: space-between;
             background-image: url('/playground_assets/5-1500h.jpg');
             background-position: center;
           }
           .image02 {
-            top: auto;
-            left: auto;
-            width: 100%;
-            bottom: 0px;
+            width: 200px;
+            height: 50px;
+            align-self: center;
             object-fit: cover;
-            margin-bottom: -2px;
           }
           .text28 {
             color: #ffffff;
@@ -788,6 +781,7 @@ const Home = () => {
             text-align: center;
             font-weight: 400;
             line-height: 2;
+            margin-bottom: var(--dl-space-space-unit);
           }
           .image03 {
             top: auto;
@@ -816,7 +810,7 @@ const Home = () => {
             flex-direction: row;
             justify-content: center;
           }
-          .container13 {
+          .container12 {
             display: flex;
             max-width: 1320px;
             align-items: flex-start;
@@ -824,7 +818,7 @@ const Home = () => {
             padding-right: var(--dl-space-space-doubleunit);
             flex-direction: row;
           }
-          .container14 {
+          .container13 {
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -848,7 +842,7 @@ const Home = () => {
             color: #000000;
             text-align: center;
           }
-          .container15 {
+          .container14 {
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -875,7 +869,7 @@ const Home = () => {
           .link {
             display: contents;
           }
-          .container16 {
+          .container15 {
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -903,7 +897,7 @@ const Home = () => {
           .link1 {
             display: contents;
           }
-          .container17 {
+          .container16 {
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -946,7 +940,7 @@ const Home = () => {
             flex-direction: row;
             justify-content: center;
           }
-          .container18 {
+          .container17 {
             display: flex;
             max-width: 1320px;
             align-items: flex-start;
@@ -954,7 +948,7 @@ const Home = () => {
             padding-right: var(--dl-space-space-doubleunit);
             flex-direction: row;
           }
-          .container19 {
+          .container18 {
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -978,7 +972,7 @@ const Home = () => {
             color: #000000;
             text-align: center;
           }
-          .container20 {
+          .container19 {
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -1005,7 +999,7 @@ const Home = () => {
           .link2 {
             display: contents;
           }
-          .container21 {
+          .container20 {
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -1033,7 +1027,7 @@ const Home = () => {
           .link3 {
             display: contents;
           }
-          .container22 {
+          .container21 {
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -1084,7 +1078,7 @@ const Home = () => {
               width: 90%;
               margin-bottom: var(--dl-space-space-fiveunits);
             }
-            .container11 {
+            .container10 {
               width: 20rem;
               height: auto;
             }
@@ -1108,22 +1102,22 @@ const Home = () => {
             .team {
               position: relative;
             }
-            .container13 {
+            .container12 {
               width: auto;
               max-width: auto;
               padding-left: 0px;
               padding-right: 0px;
             }
-            .container14 {
+            .container13 {
               width: auto;
+            }
+            .container14 {
+              margin-right: var(--dl-space-space-unit);
             }
             .container15 {
               margin-right: var(--dl-space-space-unit);
             }
             .container16 {
-              margin-right: var(--dl-space-space-unit);
-            }
-            .container17 {
               margin: var(--dl-space-space-halfunit);
             }
             .section21 {
@@ -1136,22 +1130,25 @@ const Home = () => {
             .team1 {
               position: relative;
             }
-            .container18 {
+            .container17 {
               width: auto;
               max-width: auto;
               padding-left: 0px;
               padding-right: 0px;
             }
-            .container19 {
+            .container18 {
               width: auto;
             }
+            .container19 {
+              width: auto;
+              margin-right: var(--dl-space-space-unit);
+            }
             .container20 {
+              width: auto;
               margin-right: var(--dl-space-space-unit);
             }
             .container21 {
-              margin-right: var(--dl-space-space-unit);
-            }
-            .container22 {
+              width: auto;
               margin: var(--dl-space-space-halfunit);
             }
           }
@@ -1167,19 +1164,28 @@ const Home = () => {
               margin-top: var(--dl-space-space-tripleunit);
               flex-direction: column;
             }
-            .container10 {
+            .container09 {
               width: 100%;
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .container11 {
+            .container10 {
               width: 100%;
             }
-            .container12 {
+            .container11 {
               height: 30rem;
             }
-            .container13 {
+            .text29 {
+              margin-top: var(--dl-space-space-halfunit);
+              margin-bottom: var(--dl-space-space-tripleunit);
+            }
+            .container12 {
               flex-wrap: wrap;
               flex-direction: row;
+              justify-content: center;
+            }
+            .container13 {
+              width: 50%;
+              margin-bottom: var(--dl-space-space-tripleunit);
             }
             .container14 {
               width: 50%;
@@ -1194,12 +1200,13 @@ const Home = () => {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
             .container17 {
-              width: 50%;
-              margin-bottom: var(--dl-space-space-tripleunit);
-            }
-            .container18 {
               flex-wrap: wrap;
               flex-direction: row;
+              justify-content: center;
+            }
+            .container18 {
+              width: 50%;
+              margin-bottom: var(--dl-space-space-tripleunit);
             }
             .container19 {
               width: 50%;
@@ -1210,10 +1217,6 @@ const Home = () => {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
             .container21 {
-              width: 50%;
-              margin-bottom: var(--dl-space-space-tripleunit);
-            }
-            .container22 {
               width: 50%;
               margin-bottom: var(--dl-space-space-tripleunit);
             }
@@ -1244,18 +1247,18 @@ const Home = () => {
             .text15 {
               text-align: left;
             }
-            .container13 {
+            .container12 {
               align-items: center;
               flex-direction: column;
             }
-            .container16 {
+            .container15 {
               width: auto;
             }
-            .container18 {
+            .container17 {
               align-items: center;
               flex-direction: column;
             }
-            .container21 {
+            .container20 {
               width: auto;
             }
           }
