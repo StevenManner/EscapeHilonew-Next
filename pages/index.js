@@ -3,7 +3,6 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import Header from '../components/header'
-import MemberDetails from '../components/member-details'
 import Footer from '../components/footer'
 
 const Home = () => {
@@ -44,7 +43,7 @@ const Home = () => {
             <img
               alt="image"
               src="/playground_assets/white-vector.svg"
-              className="image1"
+              className="image01"
             />
           </div>
         </div>
@@ -106,174 +105,275 @@ const Home = () => {
                 </h3>
                 <span className="text17">
                   <span className="text18">
-                    Don&apos;t let your users guess by attaching tooltips and
-                    popoves to any element. Just make sure you enable them first
-                    via JavaScript.
+                    Awesome game, awesome time. This was my first time playing
+                    and what I had envisioned it to be; it was exactly that. It
+                    was exciting, challenging, and completely well thought out.
+                    - Holly
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
                   </span>
                   <br></br>
                   <span></span>
                   <br></br>
                   <span className="text21">
-                    The kit comes with three pre-built pages to help you get
-                    started faster. You can change the text and images and
-                    you&apos;re good to go. Just make sure you enable them first
-                    via JavaScript.
+                    The experience was amazing. Unlike anything else in Hilo.
+                    Definitely would recommend to any locals or anyone visiting
+                    the island. - Elias
+                  </span>
+                  <br></br>
+                  <span></span>
+                  <br></br>
+                  <span>
+                    We have done a couple of escape rooms before and this one
+                    was really ingenious, and c
+                  </span>
+                  <span>
+                    hallenging enough to be fun but not too hard. A great way to
+                    spend an hour in Hilo! - Jim
                   </span>
                   <br></br>
                 </span>
-                <span className="text22">Check Notus PRO React!</span>
+                <span className="text27">Check Notus PRO React!</span>
               </div>
               <div className="container11">
                 <div className="container12">
                   <img
                     alt="image"
                     src="/playground_assets/blue_wave.svg"
-                    className="image2"
+                    className="image02"
                   />
                 </div>
-                <h4 className="text23 healine">Five Star Reviews on Google!</h4>
-                <span className="text24">
+                <h4 className="text28 healine">Five Star Reviews on Google!</h4>
+                <span className="text29">
                   <span>
-                    With over 97 reviews on Google Maps, Escape Hilo continues
+                    With over 100 reviews on Google Maps, Escape Hilo continues
                     to craft a unique novelty experience for everyone
                   </span>
                 </span>
-                <div className="container13"></div>
               </div>
             </div>
           </div>
           <img
             alt="image"
             src="/playground_assets/white-vector.svg"
-            className="image3"
+            className="image03"
           />
         </div>
         <div className="section2">
           <div className="team">
-            <div className="container14">
+            <div className="container13">
+              <div className="container14">
+                <img
+                  alt="image"
+                  src="/playground_assets/ryan_2-200h.png"
+                  className="image04"
+                />
+                <span className="text31">Ramses G.</span>
+                <img
+                  alt="image"
+                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
+                  className="image05"
+                />
+                <span className="text32">
+                  <span>
+                    Escape Hilo provided my sister and I a great experience! Did
+                    we escape? No. However, we both had a blast running around,
+                    solving clues, and jump scared by the animatronics. Our host
+                    Ryan is fantastic at his job too. His exuberant attitude
+                    made our visit worthwhile portraying what excellent local
+                    hospitality is. His personality is a vibe. We both highly
+                    recommend that anyone who is either tourist or local to come
+                    escape.
+                  </span>
+                  <br></br>
+                  <span>Good luck!</span>
+                </span>
+              </div>
+              <div className="container15">
+                <img
+                  alt="image"
+                  src="/playground_assets/ryan_3-200h.png"
+                  className="image06"
+                />
+                <span className="text35">Julie R.</span>
+                <img
+                  alt="image"
+                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
+                  className="image07"
+                />
+                <span className="text36">
+                  <span>
+                    {' '}
+                    Our family had an absolute blast!! The escape room was super
+                    well done, a perfect mix of challenges &amp; fun. The owner
+                    Ryan has to be one of the nicest people on the planet,
+                    making our experience even more fun :) I would definitely
+                    recommend!
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                </span>
+              </div>
               <Link href="/profile">
                 <a className="link">
-                  <div className="container15">
-                    <MemberDetails image_src="/playground_assets/team1-200h.jpg"></MemberDetails>
-                    <div className="container16">
-                      <div className="container17">
-                        <svg
-                          viewBox="0 0 950.8571428571428 1024"
-                          className="icon"
-                        >
-                          <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
-                        </svg>
-                      </div>
-                      <div className="container18">
-                        <svg viewBox="0 0 1024 1024" className="icon02">
-                          <path d="M783.104 239.957c-74.667-74.283-165.888-111.957-271.104-111.957-106.197 0-197.675 37.717-271.915 112-74.368 74.283-112.085 165.845-112.085 272 0 105.173 37.675 196.395 111.957 271.104 74.283 74.923 165.803 112.896 272.043 112.896 105.259 0 196.48-37.973 271.189-112.768 74.88-74.795 112.811-166.059 112.811-271.232 0-106.155-37.973-197.717-112.896-272.043zM722.859 722.901c-48.512 48.597-103.936 76.288-168.192 84.693v-210.261h85.333v-85.333h-85.333v-59.733c0-14.123 11.477-25.6 25.643-25.6h59.691v-85.333h-59.605c-31.659 0-58.069 11.648-79.232 35.072-21.163 23.339-31.829 51.84-31.829 85.675v49.92h-85.333v85.333h85.333v210.347c-64.939-8.32-120.576-36.053-168.832-84.651-58.667-59.051-87.168-128.085-87.168-211.029 0-83.883 28.459-153.088 87.125-211.627 58.453-58.581 127.659-87.040 211.541-87.040 82.987 0 151.979 28.501 210.987 87.168 59.008 58.539 87.68 127.744 87.68 211.499 0 82.816-28.715 151.851-87.808 210.901z"></path>
-                        </svg>
-                      </div>
-                      <div className="container19">
-                        <svg viewBox="0 0 1024 1024" className="icon04">
-                          <path d="M382 554h88v382q-62-6-139-43t-123-83q62-34 113-110t61-146zM730 554h206q-10 100-66 188-50-24-90-79t-50-109zM154 742q-58-90-66-188h206q-10 54-50 109t-90 79zM642 554q10 70 61 146t113 110q-44 46-121 83t-141 43v-382h88zM382 470q-10-70-61-146t-113-110q44-46 121-83t141-43v382h-88zM642 470h-88v-382q62 6 139 43t123 83q-62 34-113 110t-61 146zM294 470h-206q10-100 66-188 50 24 90 79t50 109zM730 470q10-54 50-109t90-79q56 88 66 188h-206z"></path>
-                        </svg>
-                      </div>
-                    </div>
+                  <div className="container16">
+                    <img
+                      alt="image"
+                      src="/playground_assets/ryan_4-200h.png"
+                      className="image08"
+                    />
+                    <span className="text38">Brandon Hoffman</span>
+                    <img
+                      alt="image"
+                      src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
+                      className="image09"
+                    />
+                    <span className="text39">
+                      <span>
+                        What a cool place. Every escape room has its own
+                        uniqueness. This one did not disappoint. The game master
+                        is really cool and exciting. The theme is great. Canât
+                        give away any details or it will ruin the fun.
+                        Definitely recommend.
+                      </span>
+                    </span>
                   </div>
                 </a>
               </Link>
               <Link href="/profile">
                 <a className="link1">
-                  <div className="container20">
-                    <MemberDetails
-                      heading1="Romina Hadid"
-                      heading11="Marketing Specialist"
-                      image_src="/playground_assets/team2-200h.jpg"
-                    ></MemberDetails>
-                    <div className="container21">
-                      <div className="container22">
-                        <svg
-                          viewBox="0 0 950.8571428571428 1024"
-                          className="icon06"
-                        >
-                          <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
-                        </svg>
-                      </div>
-                      <div className="container23">
-                        <svg viewBox="0 0 1024 1024" className="icon08">
-                          <path d="M783.104 239.957c-74.667-74.283-165.888-111.957-271.104-111.957-106.197 0-197.675 37.717-271.915 112-74.368 74.283-112.085 165.845-112.085 272 0 105.173 37.675 196.395 111.957 271.104 74.283 74.923 165.803 112.896 272.043 112.896 105.259 0 196.48-37.973 271.189-112.768 74.88-74.795 112.811-166.059 112.811-271.232 0-106.155-37.973-197.717-112.896-272.043zM722.859 722.901c-48.512 48.597-103.936 76.288-168.192 84.693v-210.261h85.333v-85.333h-85.333v-59.733c0-14.123 11.477-25.6 25.643-25.6h59.691v-85.333h-59.605c-31.659 0-58.069 11.648-79.232 35.072-21.163 23.339-31.829 51.84-31.829 85.675v49.92h-85.333v85.333h85.333v210.347c-64.939-8.32-120.576-36.053-168.832-84.651-58.667-59.051-87.168-128.085-87.168-211.029 0-83.883 28.459-153.088 87.125-211.627 58.453-58.581 127.659-87.040 211.541-87.040 82.987 0 151.979 28.501 210.987 87.168 59.008 58.539 87.68 127.744 87.68 211.499 0 82.816-28.715 151.851-87.808 210.901z"></path>
-                        </svg>
-                      </div>
-                    </div>
+                  <div className="container17">
+                    <img
+                      alt="image"
+                      src="/playground_assets/ryan_5-200h.png"
+                      className="image10"
+                    />
+                    <span className="text41">Tiffany Plagenza</span>
+                    <img
+                      alt="image"
+                      src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
+                      className="image11"
+                    />
+                    <span className="text42">
+                      <span>
+                        We escaped! This was the most fun we have had with a
+                        great challenge. We came to Hilo, Hawaii just to visit
+                        this escape room after attempting to escape the Samurai
+                        room 2 years ago. 5 star experience â­ï¸
+                      </span>
+                    </span>
                   </div>
                 </a>
               </Link>
+            </div>
+          </div>
+        </div>
+        <div className="section21">
+          <div className="team1">
+            <div className="container18">
+              <div className="container19">
+                <img
+                  alt="image"
+                  src="/playground_assets/ryan_2-200h.png"
+                  className="image12"
+                />
+                <span className="text44">Ramses G.</span>
+                <img
+                  alt="image"
+                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
+                  className="image13"
+                />
+                <span className="text45">
+                  <span>
+                    I went with my boyfriend on a rainy day and it was so much
+                    fun even though it was just the two of us. The guy was very
+                    nice and made the game even more fun. Absolutely
+                    recommended!!!
+                  </span>
+                </span>
+              </div>
+              <div className="container20">
+                <img
+                  alt="image"
+                  src="/playground_assets/ryan_3-200h.png"
+                  className="image14"
+                />
+                <span className="text47">Julie R.</span>
+                <img
+                  alt="image"
+                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
+                  className="image15"
+                />
+                <span className="text48">
+                  <span>
+                    {' '}
+                    Our family had an absolute blast!! The escape room was super
+                    well done, a perfect mix of challenges &amp; fun. The owner
+                    Ryan has to be one of the nicest people on the planet,
+                    making our experience even more fun :) I would definitely
+                    recommend!
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                </span>
+              </div>
               <Link href="/profile">
                 <a className="link2">
-                  <div className="container24">
-                    <MemberDetails
-                      heading1="Alexa Smith"
-                      heading11="UI/UX Designer"
-                      image_src="/playground_assets/team6-200h.jpg"
-                    ></MemberDetails>
-                    <div className="container25">
-                      <div className="container26">
-                        <svg
-                          viewBox="0 0 950.8571428571428 1024"
-                          className="icon10"
-                        >
-                          <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
-                        </svg>
-                      </div>
-                      <div className="container27">
-                        <svg viewBox="0 0 1024 1024" className="icon12">
-                          <path d="M783.104 239.957c-74.667-74.283-165.888-111.957-271.104-111.957-106.197 0-197.675 37.717-271.915 112-74.368 74.283-112.085 165.845-112.085 272 0 105.173 37.675 196.395 111.957 271.104 74.283 74.923 165.803 112.896 272.043 112.896 105.259 0 196.48-37.973 271.189-112.768 74.88-74.795 112.811-166.059 112.811-271.232 0-106.155-37.973-197.717-112.896-272.043zM722.859 722.901c-48.512 48.597-103.936 76.288-168.192 84.693v-210.261h85.333v-85.333h-85.333v-59.733c0-14.123 11.477-25.6 25.643-25.6h59.691v-85.333h-59.605c-31.659 0-58.069 11.648-79.232 35.072-21.163 23.339-31.829 51.84-31.829 85.675v49.92h-85.333v85.333h85.333v210.347c-64.939-8.32-120.576-36.053-168.832-84.651-58.667-59.051-87.168-128.085-87.168-211.029 0-83.883 28.459-153.088 87.125-211.627 58.453-58.581 127.659-87.040 211.541-87.040 82.987 0 151.979 28.501 210.987 87.168 59.008 58.539 87.68 127.744 87.68 211.499 0 82.816-28.715 151.851-87.808 210.901z"></path>
-                        </svg>
-                      </div>
-                      <div className="container28">
-                        <svg
-                          viewBox="0 0 877.7142857142857 1024"
-                          className="icon14"
-                        >
-                          <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
-                        </svg>
-                      </div>
-                    </div>
+                  <div className="container21">
+                    <img
+                      alt="image"
+                      src="/playground_assets/ryan_4-200h.png"
+                      className="image16"
+                    />
+                    <span className="text50">Brandon Hoffman</span>
+                    <img
+                      alt="image"
+                      src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
+                      className="image17"
+                    />
+                    <span className="text51">
+                      <span>
+                        What a cool place. Every escape room has its own
+                        uniqueness. This one did not disappoint. The game master
+                        is really cool and exciting. The theme is great. Canât
+                        give away any details or it will ruin the fun.
+                        Definitely recommend.
+                      </span>
+                    </span>
                   </div>
                 </a>
               </Link>
               <Link href="/profile">
                 <a className="link3">
-                  <div className="container29">
-                    <MemberDetails
-                      heading1="Jenna Kardi"
-                      heading11="Founder and ceo"
-                      image_src="/playground_assets/team4-200h.png"
-                    ></MemberDetails>
-                    <div className="container30">
-                      <div className="container31">
-                        <svg
-                          viewBox="0 0 950.8571428571428 1024"
-                          className="icon16"
-                        >
-                          <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
-                        </svg>
-                      </div>
-                      <div className="container32">
-                        <svg viewBox="0 0 1024 1024" className="icon18">
-                          <path d="M783.104 239.957c-74.667-74.283-165.888-111.957-271.104-111.957-106.197 0-197.675 37.717-271.915 112-74.368 74.283-112.085 165.845-112.085 272 0 105.173 37.675 196.395 111.957 271.104 74.283 74.923 165.803 112.896 272.043 112.896 105.259 0 196.48-37.973 271.189-112.768 74.88-74.795 112.811-166.059 112.811-271.232 0-106.155-37.973-197.717-112.896-272.043zM722.859 722.901c-48.512 48.597-103.936 76.288-168.192 84.693v-210.261h85.333v-85.333h-85.333v-59.733c0-14.123 11.477-25.6 25.643-25.6h59.691v-85.333h-59.605c-31.659 0-58.069 11.648-79.232 35.072-21.163 23.339-31.829 51.84-31.829 85.675v49.92h-85.333v85.333h85.333v210.347c-64.939-8.32-120.576-36.053-168.832-84.651-58.667-59.051-87.168-128.085-87.168-211.029 0-83.883 28.459-153.088 87.125-211.627 58.453-58.581 127.659-87.040 211.541-87.040 82.987 0 151.979 28.501 210.987 87.168 59.008 58.539 87.68 127.744 87.68 211.499 0 82.816-28.715 151.851-87.808 210.901z"></path>
-                        </svg>
-                      </div>
-                      <div className="container33">
-                        <svg viewBox="0 0 1024 1024" className="icon20">
-                          <path d="M382 554h88v382q-62-6-139-43t-123-83q62-34 113-110t61-146zM730 554h206q-10 100-66 188-50-24-90-79t-50-109zM154 742q-58-90-66-188h206q-10 54-50 109t-90 79zM642 554q10 70 61 146t113 110q-44 46-121 83t-141 43v-382h88zM382 470q-10-70-61-146t-113-110q44-46 121-83t141-43v382h-88zM642 470h-88v-382q62 6 139 43t123 83q-62 34-113 110t-61 146zM294 470h-206q10-100 66-188 50 24 90 79t50 109zM730 470q10-54 50-109t90-79q56 88 66 188h-206z"></path>
-                        </svg>
-                      </div>
-                      <div className="container34">
-                        <svg
-                          viewBox="0 0 877.7142857142857 1024"
-                          className="icon22"
-                        >
-                          <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
-                        </svg>
-                      </div>
-                    </div>
+                  <div className="container22">
+                    <img
+                      alt="image"
+                      src="/playground_assets/ryan_5-200h.png"
+                      className="image18"
+                    />
+                    <span className="text53">Tiffany Plagenza</span>
+                    <img
+                      alt="image"
+                      src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
+                      className="image19"
+                    />
+                    <span className="text54">
+                      <span>
+                        We escaped! This was the most fun we have had with a
+                        great challenge. We came to Hilo, Hawaii just to visit
+                        this escape room after attempting to escape the Samurai
+                        room 2 years ago. 5 star experience â­ï¸
+                      </span>
+                    </span>
                   </div>
                 </a>
               </Link>
@@ -359,7 +459,7 @@ const Home = () => {
             position: absolute;
             object-fit: cover;
           }
-          .image1 {
+          .image01 {
             left: auto;
             right: 0px;
             width: 100%;
@@ -594,7 +694,8 @@ const Home = () => {
             border: 2px dashed rgba(120, 120, 120, 0.4);
             height: 100px;
             display: flex;
-            align-items: flex-start;
+            align-items: center;
+            justify-content: center;
           }
           .work-with-us {
             display: flex;
@@ -634,7 +735,7 @@ const Home = () => {
             white-space: normal;
             background-color: rgb(241, 245, 249);
           }
-          .text22 {
+          .text27 {
             color: var(--dl-color-secondary-400);
             font-style: normal;
             font-weight: 700;
@@ -666,37 +767,29 @@ const Home = () => {
             background-image: url('/playground_assets/5-1500h.jpg');
             background-position: center;
           }
-          .image2 {
+          .image02 {
             top: auto;
             left: auto;
             width: 100%;
             bottom: 0px;
             object-fit: cover;
-            margin-bottom: -1px;
+            margin-bottom: -2px;
           }
-          .text23 {
+          .text28 {
             color: #ffffff;
             width: 372px;
             font-size: 1.25rem;
             text-align: center;
           }
-          .text24 {
+          .text29 {
             color: #f2f5f9ff;
+            font-style: normal;
+            margin-top: var(--dl-space-space-unit);
             text-align: center;
+            font-weight: 400;
+            line-height: 2;
           }
-          .container13 {
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            height: 86px;
-            display: flex;
-            align-items: flex-end;
-            border-radius: 0px;
-            flex-direction: column;
-            background-size: cover;
-            justify-content: flex-end;
-            background-image: url('/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-1500w.png');
-            background-position: center;
-          }
-          .image3 {
+          .image03 {
             top: auto;
             left: auto;
             right: 0px;
@@ -711,9 +804,9 @@ const Home = () => {
             display: flex;
             align-self: center;
             align-items: center;
-            padding-top: var(--dl-space-space-fiveunits);
+            padding-top: var(--dl-space-space-doubleunit);
             flex-direction: column;
-            padding-bottom: var(--dl-space-space-fiveunits);
+            padding-bottom: var(--dl-space-space-doubleunit);
           }
           .team {
             flex: 0 0 auto;
@@ -723,8 +816,7 @@ const Home = () => {
             flex-direction: row;
             justify-content: center;
           }
-          .container14 {
-            width: 100%;
+          .container13 {
             display: flex;
             max-width: 1320px;
             align-items: flex-start;
@@ -732,289 +824,239 @@ const Home = () => {
             padding-right: var(--dl-space-space-doubleunit);
             flex-direction: row;
           }
+          .container14 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .image04 {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+          }
+          .text31 {
+            color: #000000;
+            text-align: center;
+            font-weight: 700;
+          }
+          .image05 {
+            width: 100px;
+            object-fit: cover;
+          }
+          .text32 {
+            color: #000000;
+            text-align: center;
+          }
+          .container15 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .image06 {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+          }
+          .text35 {
+            color: #000000;
+            text-align: center;
+            font-weight: 700;
+          }
+          .image07 {
+            width: 100px;
+            object-fit: cover;
+          }
+          .text36 {
+            color: #000000;
+            text-align: center;
+          }
           .link {
             display: contents;
           }
-          .container15 {
-            width: 50%;
+          .container16 {
             display: flex;
             align-items: center;
-            padding-left: var(--dl-space-space-unit);
-            padding-right: var(--dl-space-space-unit);
             flex-direction: column;
             justify-content: center;
             text-decoration: none;
           }
-          .container16 {
-            flex: 0 0 auto;
-            display: flex;
-            margin-top: var(--dl-space-space-unitandhalf);
-            align-items: flex-start;
-            flex-direction: row;
+          .image08 {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
           }
-          .container17 {
-            flex: 0 0 auto;
-            width: 2rem;
-            height: 2rem;
-            display: flex;
-            align-items: center;
-            margin-right: 0.25rem;
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            justify-content: center;
-            background-color: #37BCF8;
+          .text38 {
+            color: #000000;
+            text-align: center;
+            font-weight: 700;
           }
-          .icon {
-            fill: var(--dl-color-gray-white);
-            width: 18px;
-            height: 18px;
+          .image09 {
+            width: 100px;
+            object-fit: cover;
           }
-          .container18 {
-            flex: 0 0 auto;
-            width: 2rem;
-            height: 2rem;
-            display: flex;
-            align-items: center;
-            margin-right: 0.25rem;
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            justify-content: center;
-            background-color: #4aa4e3ff;
-          }
-          .icon02 {
-            fill: var(--dl-color-gray-white);
-            width: 18px;
-            height: 18px;
-          }
-          .container19 {
-            flex: 0 0 auto;
-            width: 2rem;
-            height: 2rem;
-            display: flex;
-            align-items: center;
-            margin-right: 0.25rem;
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            justify-content: center;
-            background-color: #EC4999;
-          }
-          .icon04 {
-            fill: var(--dl-color-gray-white);
-            width: 18px;
-            height: 18px;
+          .text39 {
+            color: #000000;
+            text-align: center;
           }
           .link1 {
             display: contents;
           }
-          .container20 {
-            width: 50%;
+          .container17 {
             display: flex;
             align-items: center;
-            padding-left: var(--dl-space-space-unit);
-            padding-right: var(--dl-space-space-unit);
             flex-direction: column;
             justify-content: center;
             text-decoration: none;
           }
-          .container21 {
+          .image10 {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+          }
+          .text41 {
+            color: #000000;
+            text-align: center;
+            font-weight: 700;
+          }
+          .image11 {
+            width: 100px;
+            object-fit: cover;
+          }
+          .text42 {
+            color: #000000;
+            text-align: center;
+          }
+          .section21 {
             flex: 0 0 auto;
+            width: 100%;
             display: flex;
-            margin-top: var(--dl-space-space-unitandhalf);
+            align-self: center;
+            align-items: center;
+            padding-top: var(--dl-space-space-doubleunit);
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-doubleunit);
+          }
+          .team1 {
+            flex: 0 0 auto;
+            width: 100%;
+            display: flex;
             align-items: flex-start;
             flex-direction: row;
+            justify-content: center;
           }
-          .container22 {
-            flex: 0 0 auto;
-            width: 2rem;
-            height: 2rem;
+          .container18 {
+            display: flex;
+            max-width: 1320px;
+            align-items: flex-start;
+            padding-left: var(--dl-space-space-doubleunit);
+            padding-right: var(--dl-space-space-doubleunit);
+            flex-direction: row;
+          }
+          .container19 {
             display: flex;
             align-items: center;
-            margin-right: 0.25rem;
-            border-radius: var(--dl-radius-radius-round);
             flex-direction: column;
             justify-content: center;
-            background-color: #BD195D;
           }
-          .icon06 {
-            fill: var(--dl-color-gray-white);
-            width: 18px;
-            height: 18px;
+          .image12 {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
           }
-          .container23 {
-            flex: 0 0 auto;
-            width: 2rem;
-            height: 2rem;
+          .text44 {
+            color: #000000;
+            text-align: center;
+            font-weight: 700;
+          }
+          .image13 {
+            width: 100px;
+            object-fit: cover;
+          }
+          .text45 {
+            color: #000000;
+            text-align: center;
+          }
+          .container20 {
             display: flex;
             align-items: center;
-            margin-right: 0.25rem;
-            border-radius: var(--dl-radius-radius-round);
             flex-direction: column;
             justify-content: center;
-            background-color: #4aa4e3ff;
           }
-          .icon08 {
-            fill: var(--dl-color-gray-white);
-            width: 18px;
-            height: 18px;
+          .image14 {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+          }
+          .text47 {
+            color: #000000;
+            text-align: center;
+            font-weight: 700;
+          }
+          .image15 {
+            width: 100px;
+            object-fit: cover;
+          }
+          .text48 {
+            color: #000000;
+            text-align: center;
           }
           .link2 {
             display: contents;
           }
-          .container24 {
-            width: 50%;
+          .container21 {
             display: flex;
             align-items: center;
-            padding-left: var(--dl-space-space-unit);
-            padding-right: var(--dl-space-space-unit);
             flex-direction: column;
             justify-content: center;
             text-decoration: none;
           }
-          .container25 {
-            flex: 0 0 auto;
-            display: flex;
-            margin-top: var(--dl-space-space-unitandhalf);
-            align-items: flex-start;
-            flex-direction: row;
+          .image16 {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
           }
-          .container26 {
-            flex: 0 0 auto;
-            width: 2rem;
-            height: 2rem;
-            display: flex;
-            align-items: center;
-            margin-right: 0.25rem;
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            justify-content: center;
-            background-color: #37BCF8;
+          .text50 {
+            color: #000000;
+            text-align: center;
+            font-weight: 700;
           }
-          .icon10 {
-            fill: var(--dl-color-gray-white);
-            width: 18px;
-            height: 18px;
+          .image17 {
+            width: 100px;
+            object-fit: cover;
           }
-          .container27 {
-            flex: 0 0 auto;
-            width: 2rem;
-            height: 2rem;
-            display: flex;
-            align-items: center;
-            margin-right: 0.25rem;
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            justify-content: center;
-            background-color: #4aa4e3ff;
-          }
-          .icon12 {
-            fill: var(--dl-color-gray-white);
-            width: 18px;
-            height: 18px;
-          }
-          .container28 {
-            flex: 0 0 auto;
-            width: 2rem;
-            height: 2rem;
-            display: flex;
-            align-items: center;
-            margin-right: 0.25rem;
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            justify-content: center;
-            background-color: #BD195D;
-          }
-          .icon14 {
-            fill: var(--dl-color-gray-white);
-            width: 18px;
-            height: 18px;
+          .text51 {
+            color: #000000;
+            text-align: center;
           }
           .link3 {
             display: contents;
           }
-          .container29 {
-            width: 50%;
+          .container22 {
             display: flex;
             align-items: center;
-            padding-left: var(--dl-space-space-unit);
-            padding-right: var(--dl-space-space-unit);
             flex-direction: column;
             justify-content: center;
             text-decoration: none;
           }
-          .container30 {
-            flex: 0 0 auto;
-            display: flex;
-            margin-top: var(--dl-space-space-unitandhalf);
-            align-items: flex-start;
-            flex-direction: row;
+          .image18 {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
           }
-          .container31 {
-            flex: 0 0 auto;
-            width: 2rem;
-            height: 2rem;
-            display: flex;
-            align-items: center;
-            margin-right: 0.25rem;
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            justify-content: center;
-            background-color: #37BCF8;
+          .text53 {
+            color: #000000;
+            text-align: center;
+            font-weight: 700;
           }
-          .icon16 {
-            fill: var(--dl-color-gray-white);
-            width: 18px;
-            height: 18px;
+          .image19 {
+            width: 100px;
+            object-fit: cover;
           }
-          .container32 {
-            flex: 0 0 auto;
-            width: 2rem;
-            height: 2rem;
-            display: flex;
-            align-items: center;
-            margin-right: 0.25rem;
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            justify-content: center;
-            background-color: #4aa4e3ff;
-          }
-          .icon18 {
-            fill: var(--dl-color-gray-white);
-            width: 18px;
-            height: 18px;
-          }
-          .container33 {
-            flex: 0 0 auto;
-            width: 2rem;
-            height: 2rem;
-            display: flex;
-            align-items: center;
-            margin-right: 0.25rem;
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            justify-content: center;
-            background-color: #EC4999;
-          }
-          .icon20 {
-            fill: var(--dl-color-gray-white);
-            width: 18px;
-            height: 18px;
-          }
-          .container34 {
-            flex: 0 0 auto;
-            width: 2rem;
-            height: 2rem;
-            display: flex;
-            align-items: center;
-            margin-right: 0.25rem;
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            justify-content: center;
-            background-color: #BD195D;
-          }
-          .icon22 {
-            fill: var(--dl-color-gray-white);
-            width: 18px;
-            height: 18px;
+          .text54 {
+            color: #000000;
+            text-align: center;
           }
           @media (max-width: 991px) {
             .cards-container {
@@ -1046,22 +1088,71 @@ const Home = () => {
               width: 20rem;
               height: auto;
             }
-            .text23 {
+            .text28 {
               width: 100%;
               height: 62px;
               text-align: center;
             }
-            .text24 {
+            .text29 {
               width: auto;
               align-self: center;
               text-align: center;
             }
-            .container13 {
-              height: 73px;
-            }
             .section2 {
+              padding-top: var(--dl-space-space-doubleunit);
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
+              padding-bottom: var(--dl-space-space-doubleunit);
+              justify-content: center;
+            }
+            .team {
+              position: relative;
+            }
+            .container13 {
+              width: auto;
+              max-width: auto;
+              padding-left: 0px;
+              padding-right: 0px;
+            }
+            .container14 {
+              width: auto;
+            }
+            .container15 {
+              margin-right: var(--dl-space-space-unit);
+            }
+            .container16 {
+              margin-right: var(--dl-space-space-unit);
+            }
+            .container17 {
+              margin: var(--dl-space-space-halfunit);
+            }
+            .section21 {
+              padding-top: var(--dl-space-space-doubleunit);
+              padding-left: var(--dl-space-space-doubleunit);
+              padding-right: var(--dl-space-space-doubleunit);
+              padding-bottom: var(--dl-space-space-doubleunit);
+              justify-content: center;
+            }
+            .team1 {
+              position: relative;
+            }
+            .container18 {
+              width: auto;
+              max-width: auto;
+              padding-left: 0px;
+              padding-right: 0px;
+            }
+            .container19 {
+              width: auto;
+            }
+            .container20 {
+              margin-right: var(--dl-space-space-unit);
+            }
+            .container21 {
+              margin-right: var(--dl-space-space-unit);
+            }
+            .container22 {
+              margin: var(--dl-space-space-halfunit);
             }
           }
           @media (max-width: 767px) {
@@ -1087,27 +1178,44 @@ const Home = () => {
               height: 30rem;
             }
             .container13 {
-              width: 100%;
-              height: 163px;
-            }
-            .container14 {
               flex-wrap: wrap;
               flex-direction: row;
+            }
+            .container14 {
+              width: 50%;
+              margin-bottom: var(--dl-space-space-tripleunit);
             }
             .container15 {
               width: 50%;
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .container20 {
-              width: 50%;
-              padding-bottom: var(--dl-space-space-tripleunit);
-            }
-            .container24 {
+            .container16 {
               width: 50%;
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .container29 {
+            .container17 {
               width: 50%;
+              margin-bottom: var(--dl-space-space-tripleunit);
+            }
+            .container18 {
+              flex-wrap: wrap;
+              flex-direction: row;
+            }
+            .container19 {
+              width: 50%;
+              margin-bottom: var(--dl-space-space-tripleunit);
+            }
+            .container20 {
+              width: 50%;
+              margin-bottom: var(--dl-space-space-tripleunit);
+            }
+            .container21 {
+              width: 50%;
+              margin-bottom: var(--dl-space-space-tripleunit);
+            }
+            .container22 {
+              width: 50%;
+              margin-bottom: var(--dl-space-space-tripleunit);
             }
           }
           @media (max-width: 479px) {
@@ -1136,9 +1244,19 @@ const Home = () => {
             .text15 {
               text-align: left;
             }
-            .container14 {
+            .container13 {
               align-items: center;
               flex-direction: column;
+            }
+            .container16 {
+              width: auto;
+            }
+            .container18 {
+              align-items: center;
+              flex-direction: column;
+            }
+            .container21 {
+              width: auto;
             }
           }
         `}
