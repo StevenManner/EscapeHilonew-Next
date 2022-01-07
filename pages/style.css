@@ -31,6 +31,12 @@
   --dl-space-space-unitandhalf: 1.5rem;
   --dl-space-space-triplequarter: 0.75rem;
 }
+.teleport-show {
+  display: flex !important;
+}
+.list-item {
+  display: list-item;
+}
 .button {
   color: var(--dl-color-gray-900);
   display: inline-block;
@@ -40,6 +46,15 @@
   border-width: 1px;
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
+}
+
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
 }
 .textarea {
   color: var(--dl-color-gray-900);
@@ -60,9 +75,6 @@
   border-width: 1px;
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
-}
-.teleport-show {
-  display: flex !important;
 }
 .healine {
   font-size: 1.875rem;

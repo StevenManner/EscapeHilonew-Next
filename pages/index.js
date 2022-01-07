@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import Header from '../components/header'
+import AppComponent from '../components/component'
 import Footer from '../components/footer'
 
 const Home = () => {
@@ -34,7 +35,7 @@ const Home = () => {
                 </span>
               </span>
             </div>
-            <button className="button">Click Here to Book Your Escape!</button>
+            <AppComponent></AppComponent>
             <img
               alt="image"
               src="/playground_assets/gray-vector.svg"
@@ -97,7 +98,7 @@ const Home = () => {
                 </span>
               </div>
             </div>
-            <button className="button1 button">Book Your Escape Today!</button>
+            <AppComponent></AppComponent>
             <div className="work-with-us">
               <div className="container09">
                 <h3 className="text16 healine">
@@ -141,7 +142,7 @@ const Home = () => {
                 <div className="container11"></div>
                 <img
                   alt="image"
-                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-1500h.png"
+                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
                   className="image02"
                 />
                 <h4 className="text27 healine">Five Star Reviews on Google!</h4>
@@ -172,7 +173,7 @@ const Home = () => {
                 <span className="text30">Ramses G.</span>
                 <img
                   alt="image"
-                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-1500h.png"
+                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
                   className="image05"
                 />
                 <span className="text31">
@@ -199,7 +200,7 @@ const Home = () => {
                 <span className="text34">Julie R.</span>
                 <img
                   alt="image"
-                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-1500h.png"
+                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
                   className="image07"
                 />
                 <span className="text35">
@@ -229,7 +230,7 @@ const Home = () => {
                     <span className="text37">Brandon Hoffman</span>
                     <img
                       alt="image"
-                      src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-1500h.png"
+                      src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
                       className="image09"
                     />
                     <span className="text38">
@@ -255,7 +256,7 @@ const Home = () => {
                     <span className="text40">Tiffany Plagenza</span>
                     <img
                       alt="image"
-                      src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-1500h.png"
+                      src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
                       className="image11"
                     />
                     <span className="text41">
@@ -272,9 +273,14 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <button className="button2 button">
+        <a
+          href="https://fareharbor.com/embeds/book/escapehilo/items/58566/?full-items=yes&amp;u=84441f3f-1c27-44c8-9146-8ef90bd95998&amp;from-ssl=yes&amp;back=https://www.escapehilo.com/"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="link2 button"
+        >
           Book Your Jungle Mystery Today!
-        </button>
+        </a>
         <Footer></Footer>
       </div>
       <style jsx>
@@ -338,13 +344,6 @@ const Home = () => {
             color: #ffffff;
             max-width: 600px;
             text-align: center;
-          }
-          .button {
-            color: #ffffff;
-            font-style: normal;
-            font-weight: 700;
-            border-width: 0px;
-            background-color: #39b300;
           }
           .image {
             top: auto;
@@ -584,13 +583,6 @@ const Home = () => {
             font-family: Open Sans;
             line-height: 1.625rem;
           }
-          .button1 {
-            color: #ffffff;
-            font-style: normal;
-            font-weight: 700;
-            border-width: 0px;
-            background-color: #39b300;
-          }
           .work-with-us {
             display: flex;
             margin-top: var(--dl-space-space-tripleunit);
@@ -817,7 +809,7 @@ const Home = () => {
             color: #000000;
             text-align: center;
           }
-          .button2 {
+          .link2 {
             color: #ffffff;
             width: 100%;
             align-self: center;
@@ -828,6 +820,7 @@ const Home = () => {
             padding-top: var(--dl-space-space-unit);
             border-width: 0px;
             padding-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
             background-color: #39b300;
           }
           @media (max-width: 991px) {

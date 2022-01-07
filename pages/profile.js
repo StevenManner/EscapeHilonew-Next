@@ -33,7 +33,7 @@ const Profile = () => {
             </div>
             <img
               alt="image"
-              src="/playground_assets/team2-1500h.jpg"
+              src="/playground_assets/team2-200h.jpg"
               className="image2"
             />
             <div className="container04">

@@ -7,20 +7,11 @@ const Header = (props) => {
   return (
     <>
       <div data-role="Header" className={`header ${props.rootClassName} `}>
+        <img alt={props.image_alt} src={props.image_src} className="image" />
         <div className="container">
           <Link href="/">
             <a className="link">
               <h1 className="heading textSM">{props.heading1}</h1>
-            </a>
-          </Link>
-          <Link href="/profile">
-            <a className="link1">
-              <div className="container1"></div>
-            </a>
-          </Link>
-          <Link href="/blog-post">
-            <a className="link2">
-              <div className="container2"></div>
             </a>
           </Link>
         </div>
@@ -36,7 +27,7 @@ const Header = (props) => {
         <div data-type="MobileMenu" className="mobile-menu">
           <div className="top">
             <Link href="/">
-              <a className="link3">
+              <a className="link1">
                 <h1 className="heading5 textSM">{props.heading11}</h1>
               </a>
             </Link>
@@ -48,8 +39,8 @@ const Header = (props) => {
           </div>
           <div className="mid">
             <Link href="/profile">
-              <a className="link4">
-                <div className="container3">
+              <a className="link2">
+                <div className="container1">
                   <svg viewBox="0 0 1024 1024" className="icon04">
                     <path d="M576 706.612v-52.78c70.498-39.728 128-138.772 128-237.832 0-159.058 0-288-192-288s-192 128.942-192 288c0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h896c0-128.968-166.898-235.64-384-253.388z"></path>
                   </svg>
@@ -58,8 +49,8 @@ const Header = (props) => {
               </a>
             </Link>
             <Link href="/blog-post">
-              <a className="link5">
-                <div className="container4">
+              <a className="link3">
+                <div className="container2">
                   <svg viewBox="0 0 1024 1024" className="icon06">
                     <path d="M917.806 229.076c-22.212-30.292-53.174-65.7-87.178-99.704s-69.412-64.964-99.704-87.178c-51.574-37.82-76.592-42.194-90.924-42.194h-496c-44.112 0-80 35.888-80 80v864c0 44.112 35.888 80 80 80h736c44.112 0 80-35.888 80-80v-624c0-14.332-4.372-39.35-42.194-90.924zM785.374 174.626c30.7 30.7 54.8 58.398 72.58 81.374h-153.954v-153.946c22.984 17.78 50.678 41.878 81.374 72.572zM896 944c0 8.672-7.328 16-16 16h-736c-8.672 0-16-7.328-16-16v-864c0-8.672 7.328-16 16-16 0 0 495.956-0.002 496 0v224c0 17.672 14.326 32 32 32h224v624z"></path>
                     <path d="M736 832h-448c-17.672 0-32-14.326-32-32s14.328-32 32-32h448c17.674 0 32 14.326 32 32s-14.326 32-32 32z"></path>
@@ -99,6 +90,10 @@ const Header = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
+          .image {
+            width: 100px;
+            object-fit: cover;
+          }
           .container {
             display: flex;
             align-items: center;
@@ -112,28 +107,6 @@ const Header = (props) => {
             color: var(--dl-color-gray-white);
             font-weight: 700;
             margin-right: var(--dl-space-space-unit);
-            text-decoration: none;
-          }
-          .link1 {
-            display: contents;
-          }
-          .container1 {
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            margin-right: var(--dl-space-space-unit);
-            flex-direction: row;
-            text-decoration: none;
-          }
-          .link2 {
-            display: contents;
-          }
-          .container2 {
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            margin-left: var(--dl-space-space-halfunit);
-            flex-direction: row;
             text-decoration: none;
           }
           .burger-menu {
@@ -184,7 +157,7 @@ const Header = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .link3 {
+          .link1 {
             display: contents;
           }
           .heading5 {
@@ -209,10 +182,10 @@ const Header = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .link4 {
+          .link2 {
             display: contents;
           }
-          .container3 {
+          .container1 {
             display: flex;
             align-items: center;
             margin-bottom: 8px;
@@ -227,10 +200,10 @@ const Header = (props) => {
             color: var(--dl-color-secondary-400);
             margin-left: var(--dl-space-space-halfunit);
           }
-          .link5 {
+          .link3 {
             display: contents;
           }
-          .container4 {
+          .container2 {
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -305,12 +278,6 @@ const Header = (props) => {
             .heading {
               color: var(--dl-color-secondary-400);
             }
-            .container1 {
-              display: none;
-            }
-            .container2 {
-              display: none;
-            }
             .burger-menu {
               display: flex;
             }
@@ -340,23 +307,27 @@ const Header = (props) => {
 }
 
 Header.defaultProps = {
+  heading122: 'GIFT CARDS',
   rootClassName: '',
+  image_alt: 'image',
   heading11: 'NOTUS PRO',
-  heading1: 'ESCAPE HILO',
-  heading12: 'ESCAPE HILO',
-  heading121: 'ESCAPE HILO',
-  heading122: 'ESCAPE HILO',
-  heading123: 'ESCAPE HILO',
+  heading121: 'COVID-19',
+  heading123: 'FAQS',
+  heading12: 'BOOK A ROOM',
+  image_src: '1068269c-8330-4f00-a691-fc1cc21e4a88',
+  heading1: 'HOME',
 }
 
 Header.propTypes = {
-  rootClassName: PropTypes.string,
-  heading11: PropTypes.string,
-  heading1: PropTypes.string,
-  heading12: PropTypes.string,
-  heading121: PropTypes.string,
   heading122: PropTypes.string,
+  rootClassName: PropTypes.string,
+  image_alt: PropTypes.string,
+  heading11: PropTypes.string,
+  heading121: PropTypes.string,
   heading123: PropTypes.string,
+  heading12: PropTypes.string,
+  image_src: PropTypes.string,
+  heading1: PropTypes.string,
 }
 
 export default Header
