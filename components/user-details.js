@@ -74,7 +74,7 @@ const UserDetails = (props) => {
 }
 
 UserDetails.defaultProps = {
-  image_src: '/playground_assets/team4-200h.png',
+  image_src: '/playground_assets/team4-1500h.png',
   name: 'Laura Hanks',
   time: '3 days',
   image_alt: 'image',

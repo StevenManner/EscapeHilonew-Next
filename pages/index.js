@@ -136,17 +136,16 @@ const Home = () => {
                   </span>
                   <br></br>
                 </span>
-                <span className="text27">Check Notus PRO React!</span>
               </div>
               <div className="container10">
                 <div className="container11"></div>
                 <img
                   alt="image"
-                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
+                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-1500h.png"
                   className="image02"
                 />
-                <h4 className="text28 healine">Five Star Reviews on Google!</h4>
-                <span className="text29">
+                <h4 className="text27 healine">Five Star Reviews on Google!</h4>
+                <span className="text28">
                   <span>
                     With over 100 reviews on Google Maps, Escape Hilo continues
                     to craft a unique novelty experience for everyone
@@ -170,13 +169,13 @@ const Home = () => {
                   src="/playground_assets/ryan_2-200h.png"
                   className="image04"
                 />
-                <span className="text31">Ramses G.</span>
+                <span className="text30">Ramses G.</span>
                 <img
                   alt="image"
-                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
+                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-1500h.png"
                   className="image05"
                 />
-                <span className="text32">
+                <span className="text31">
                   <span>
                     Escape Hilo provided my sister and I a great experience! Did
                     we escape? No. However, we both had a blast running around,
@@ -197,13 +196,13 @@ const Home = () => {
                   src="/playground_assets/ryan_3-200h.png"
                   className="image06"
                 />
-                <span className="text35">Julie R.</span>
+                <span className="text34">Julie R.</span>
                 <img
                   alt="image"
-                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
+                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-1500h.png"
                   className="image07"
                 />
-                <span className="text36">
+                <span className="text35">
                   <span>
                     {' '}
                     Our family had an absolute blast!! The escape room was super
@@ -227,13 +226,13 @@ const Home = () => {
                       src="/playground_assets/ryan_4-200h.png"
                       className="image08"
                     />
-                    <span className="text38">Brandon Hoffman</span>
+                    <span className="text37">Brandon Hoffman</span>
                     <img
                       alt="image"
-                      src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
+                      src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-1500h.png"
                       className="image09"
                     />
-                    <span className="text39">
+                    <span className="text38">
                       <span>
                         What a cool place. Every escape room has its own
                         uniqueness. This one did not disappoint. The game master
@@ -253,13 +252,13 @@ const Home = () => {
                       src="/playground_assets/ryan_5-200h.png"
                       className="image10"
                     />
-                    <span className="text41">Tiffany Plagenza</span>
+                    <span className="text40">Tiffany Plagenza</span>
                     <img
                       alt="image"
-                      src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
+                      src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-1500h.png"
                       className="image11"
                     />
-                    <span className="text42">
+                    <span className="text41">
                       <span>
                         We escaped! This was the most fun we have had with a
                         great challenge. We came to Hilo, Hawaii just to visit
@@ -273,108 +272,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="section21">
-          <div className="team1">
-            <div className="container17">
-              <div className="container18">
-                <img
-                  alt="image"
-                  src="/playground_assets/ryan_61-200h.png"
-                  className="image12"
-                />
-                <span className="text44">Chiara Avvento</span>
-                <img
-                  alt="image"
-                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
-                  className="image13"
-                />
-                <span className="text45">
-                  <span>
-                    I went with my boyfriend on a rainy day and it was so much
-                    fun even though it was just the two of us. The guy was very
-                    nice and made the game even more fun. Absolutely
-                    recommended!!!
-                  </span>
-                </span>
-              </div>
-              <div className="container19">
-                <img
-                  alt="image"
-                  src="/playground_assets/ryan_7-200h.png"
-                  className="image14"
-                />
-                <span className="text47">Rachel Lewis</span>
-                <img
-                  alt="image"
-                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
-                  className="image15"
-                />
-                <span className="text48">
-                  <span>
-                    We have never done an escape room before, so had no idea
-                    what to expect. Booking online was easy. Ryan, the owner and
-                    âhostâ was enthusiastic the whole time and genuinely seemed
-                    to enjoy his work. . If you need something to do on a rainy
-                    day in Hilo, this is a fun option!
-                  </span>
-                </span>
-              </div>
-              <Link href="/profile">
-                <a className="link2">
-                  <div className="container20">
-                    <img
-                      alt="image"
-                      src="/playground_assets/ryan_8-200h.png"
-                      className="image16"
-                    />
-                    <span className="text50">Natalia Gula</span>
-                    <img
-                      alt="image"
-                      src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
-                      className="image17"
-                    />
-                    <span className="text51">
-                      <span>
-                        I had never tried an escape room before, but thought it
-                        would be a fun team building activity for my staff and
-                        I. We all had a blast. Ryan, our host, was delightful,
-                        and the clues, surprises, and riddles were great. So, if
-                        you are looking for a fun, different, bonding adventure
-                        to do with your family or co-workers, I heartily
-                        recommend the Escape Room!
-                      </span>
-                    </span>
-                  </div>
-                </a>
-              </Link>
-              <Link href="/profile">
-                <a className="link3">
-                  <div className="container21">
-                    <img
-                      alt="image"
-                      src="/playground_assets/ryan_9-200h.png"
-                      className="image18"
-                    />
-                    <span className="text53">Jennie Joslin</span>
-                    <img
-                      alt="image"
-                      src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
-                      className="image19"
-                    />
-                    <span className="text54">
-                      <span>
-                        Great puzzles, fun theme and an awesome host! We had
-                        such a great time, highly recommend. The room is
-                        creative and puzzles were clever. Canât wait to try his
-                        next room
-                      </span>
-                    </span>
-                  </div>
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
+        <button className="button2 button">
+          Book Your Jungle Mystery Today!
+        </button>
         <Footer></Footer>
       </div>
       <style jsx>
@@ -729,11 +629,6 @@ const Home = () => {
             white-space: normal;
             background-color: rgb(241, 245, 249);
           }
-          .text27 {
-            color: var(--dl-color-secondary-400);
-            font-style: normal;
-            font-weight: 700;
-          }
           .container10 {
             flex: 0 0 auto;
             width: 33%;
@@ -768,13 +663,13 @@ const Home = () => {
             align-self: center;
             object-fit: cover;
           }
-          .text28 {
+          .text27 {
             color: #ffffff;
             width: 372px;
             font-size: 1.25rem;
             text-align: center;
           }
-          .text29 {
+          .text28 {
             color: #f2f5f9ff;
             font-style: normal;
             margin-top: var(--dl-space-space-unit);
@@ -829,7 +724,7 @@ const Home = () => {
             height: 50px;
             object-fit: cover;
           }
-          .text31 {
+          .text30 {
             color: #000000;
             text-align: center;
             font-weight: 700;
@@ -838,7 +733,7 @@ const Home = () => {
             width: 100px;
             object-fit: cover;
           }
-          .text32 {
+          .text31 {
             color: #000000;
             text-align: center;
           }
@@ -853,7 +748,7 @@ const Home = () => {
             height: 50px;
             object-fit: cover;
           }
-          .text35 {
+          .text34 {
             color: #000000;
             text-align: center;
             font-weight: 700;
@@ -862,7 +757,7 @@ const Home = () => {
             width: 100px;
             object-fit: cover;
           }
-          .text36 {
+          .text35 {
             color: #000000;
             text-align: center;
           }
@@ -881,7 +776,7 @@ const Home = () => {
             height: 50px;
             object-fit: cover;
           }
-          .text38 {
+          .text37 {
             color: #000000;
             text-align: center;
             font-weight: 700;
@@ -890,7 +785,7 @@ const Home = () => {
             width: 100px;
             object-fit: cover;
           }
-          .text39 {
+          .text38 {
             color: #000000;
             text-align: center;
           }
@@ -909,7 +804,7 @@ const Home = () => {
             height: 50px;
             object-fit: cover;
           }
-          .text41 {
+          .text40 {
             color: #000000;
             text-align: center;
             font-weight: 700;
@@ -918,139 +813,22 @@ const Home = () => {
             width: 100px;
             object-fit: cover;
           }
-          .text42 {
+          .text41 {
             color: #000000;
             text-align: center;
           }
-          .section21 {
-            flex: 0 0 auto;
+          .button2 {
+            color: #ffffff;
             width: 100%;
-            display: flex;
             align-self: center;
-            align-items: center;
-            padding-top: var(--dl-space-space-doubleunit);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-doubleunit);
-          }
-          .team1 {
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: row;
-            justify-content: center;
-          }
-          .container17 {
-            display: flex;
-            max-width: 1320px;
-            align-items: flex-start;
-            padding-left: var(--dl-space-space-doubleunit);
-            padding-right: var(--dl-space-space-doubleunit);
-            flex-direction: row;
-          }
-          .container18 {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .image12 {
-            width: 50px;
-            height: 50px;
-            object-fit: cover;
-          }
-          .text44 {
-            color: #000000;
+            font-style: normal;
+            margin-top: var(--dl-space-space-tripleunit);
             text-align: center;
             font-weight: 700;
-          }
-          .image13 {
-            width: 100px;
-            object-fit: cover;
-          }
-          .text45 {
-            color: #000000;
-            text-align: center;
-          }
-          .container19 {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .image14 {
-            width: 50px;
-            height: 50px;
-            object-fit: cover;
-          }
-          .text47 {
-            color: #000000;
-            text-align: center;
-            font-weight: 700;
-          }
-          .image15 {
-            width: 100px;
-            object-fit: cover;
-          }
-          .text48 {
-            color: #000000;
-            text-align: center;
-          }
-          .link2 {
-            display: contents;
-          }
-          .container20 {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-            text-decoration: none;
-          }
-          .image16 {
-            width: 50px;
-            height: 50px;
-            object-fit: cover;
-          }
-          .text50 {
-            color: #000000;
-            text-align: center;
-            font-weight: 700;
-          }
-          .image17 {
-            width: 100px;
-            object-fit: cover;
-          }
-          .text51 {
-            color: #000000;
-            text-align: center;
-          }
-          .link3 {
-            display: contents;
-          }
-          .container21 {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-            text-decoration: none;
-          }
-          .image18 {
-            width: 50px;
-            height: 50px;
-            object-fit: cover;
-          }
-          .text53 {
-            color: #000000;
-            text-align: center;
-            font-weight: 700;
-          }
-          .image19 {
-            width: 100px;
-            object-fit: cover;
-          }
-          .text54 {
-            color: #000000;
-            text-align: center;
+            padding-top: var(--dl-space-space-unit);
+            border-width: 0px;
+            padding-bottom: var(--dl-space-space-unit);
+            background-color: #39b300;
           }
           @media (max-width: 991px) {
             .cards-container {
@@ -1082,12 +860,12 @@ const Home = () => {
               width: 20rem;
               height: auto;
             }
-            .text28 {
+            .text27 {
               width: 100%;
               height: 62px;
               text-align: center;
             }
-            .text29 {
+            .text28 {
               width: auto;
               align-self: center;
               text-align: center;
@@ -1120,37 +898,6 @@ const Home = () => {
             .container16 {
               margin: var(--dl-space-space-halfunit);
             }
-            .section21 {
-              padding-top: var(--dl-space-space-doubleunit);
-              padding-left: var(--dl-space-space-doubleunit);
-              padding-right: var(--dl-space-space-doubleunit);
-              padding-bottom: var(--dl-space-space-doubleunit);
-              justify-content: center;
-            }
-            .team1 {
-              position: relative;
-            }
-            .container17 {
-              width: auto;
-              max-width: auto;
-              padding-left: 0px;
-              padding-right: 0px;
-            }
-            .container18 {
-              width: auto;
-            }
-            .container19 {
-              width: auto;
-              margin-right: var(--dl-space-space-unit);
-            }
-            .container20 {
-              width: auto;
-              margin-right: var(--dl-space-space-unit);
-            }
-            .container21 {
-              width: auto;
-              margin: var(--dl-space-space-halfunit);
-            }
           }
           @media (max-width: 767px) {
             .section1 {
@@ -1174,7 +921,7 @@ const Home = () => {
             .container11 {
               height: 30rem;
             }
-            .text29 {
+            .text28 {
               margin-top: var(--dl-space-space-halfunit);
               margin-bottom: var(--dl-space-space-tripleunit);
             }
@@ -1196,27 +943,6 @@ const Home = () => {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
             .container16 {
-              width: 50%;
-              margin-bottom: var(--dl-space-space-tripleunit);
-            }
-            .container17 {
-              flex-wrap: wrap;
-              flex-direction: row;
-              justify-content: center;
-            }
-            .container18 {
-              width: 50%;
-              margin-bottom: var(--dl-space-space-tripleunit);
-            }
-            .container19 {
-              width: 50%;
-              margin-bottom: var(--dl-space-space-tripleunit);
-            }
-            .container20 {
-              width: 50%;
-              margin-bottom: var(--dl-space-space-tripleunit);
-            }
-            .container21 {
               width: 50%;
               margin-bottom: var(--dl-space-space-tripleunit);
             }
@@ -1252,13 +978,6 @@ const Home = () => {
               flex-direction: column;
             }
             .container15 {
-              width: auto;
-            }
-            .container17 {
-              align-items: center;
-              flex-direction: column;
-            }
-            .container20 {
               width: auto;
             }
           }

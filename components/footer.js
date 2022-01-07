@@ -6,10 +6,8 @@ const Footer = () => {
       <div className="container">
         <div className="container01">
           <div className="container02">
-            <h1 className="text textXL">
-              <span>Let&apos;s keep in touch</span>
-            </h1>
-            <span className="text02">
+            <h1 className="text textXL">Our platforms!</h1>
+            <span className="text01">
               Find out on any of these platforms, we respond 1-2 business days.
             </span>
             <div className="container03">
@@ -37,23 +35,23 @@ const Footer = () => {
           </div>
           <div className="container08">
             <div className="container09">
-              <span className="text03 textXS">USEFUL LINK</span>
-              <span className="text04 textSM">About Us</span>
-              <span className="text05 textSM">Blog</span>
-              <span className="text06 textSM">Github</span>
-              <span className="text07 textSM">Free Products</span>
+              <span className="text02 textXS">USEFUL LINK</span>
+              <span className="text03 textSM">About Us</span>
+              <span className="text04 textSM">Blog</span>
+              <span className="text05 textSM">Github</span>
+              <span className="text06 textSM">Free Products</span>
             </div>
             <div className="container10">
-              <span className="text08 textXS">OTHER RESOURCES</span>
-              <span className="text09 textSM">License</span>
-              <span className="text10 textSM">Terms &amp; Conditions</span>
-              <span className="text11 textSM">Privacy Policy</span>
-              <span className="text12 textSM">Contact Us</span>
+              <span className="text07 textXS">OTHER RESOURCES</span>
+              <span className="text08 textSM">License</span>
+              <span className="text09 textSM">Terms &amp; Conditions</span>
+              <span className="text10 textSM">Privacy Policy</span>
+              <span className="text11 textSM">Contact Us</span>
             </div>
           </div>
         </div>
         <div className="container11"></div>
-        <span className="text13 textSM">
+        <span className="text12 textSM">
           Copyright Â© 2021 Notus PRO React by Creative Tim.
         </span>
       </div>
@@ -85,9 +83,10 @@ const Footer = () => {
           .text {
             color: var(--dl-color-secondary-400);
             margin-top: var(--dl-space-space-unit);
+            text-align: center;
             font-weight: 600;
           }
-          .text02 {
+          .text01 {
             color: var(--dl-color-secondary-500);
             margin-top: var(--dl-space-space-halfunit);
             margin-bottom: var(--dl-space-space-halfunit);
@@ -181,9 +180,13 @@ const Footer = () => {
             margin-right: 6rem;
             flex-direction: column;
           }
-          .text03 {
+          .text02 {
             color: var(--dl-color-secondary-400);
             font-weight: 600;
+            padding-bottom: var(--dl-space-space-halfunit);
+          }
+          .text03 {
+            color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .text04 {
@@ -196,10 +199,6 @@ const Footer = () => {
           }
           .text06 {
             color: var(--dl-color-secondary-500);
-            padding-bottom: var(--dl-space-space-halfunit);
-          }
-          .text07 {
-            color: var(--dl-color-secondary-500);
           }
           .container10 {
             flex: 0 0 auto;
@@ -207,9 +206,13 @@ const Footer = () => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .text08 {
+          .text07 {
             color: var(--dl-color-secondary-400);
             font-weight: 600;
+            padding-bottom: var(--dl-space-space-halfunit);
+          }
+          .text08 {
+            color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .text09 {
@@ -221,10 +224,6 @@ const Footer = () => {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .text11 {
-            color: var(--dl-color-secondary-500);
-            padding-bottom: var(--dl-space-space-halfunit);
-          }
-          .text12 {
             color: var(--dl-color-secondary-500);
           }
           .container11 {
@@ -238,7 +237,7 @@ const Footer = () => {
             flex-direction: column;
             background-color: #e3e8efff;
           }
-          .text13 {
+          .text12 {
             color: var(--dl-color-secondary-500);
             align-self: center;
           }
@@ -259,7 +258,7 @@ const Footer = () => {
             }
           }
           @media (max-width: 767px) {
-            .text02 {
+            .text01 {
               text-align: center;
             }
             .container08 {
