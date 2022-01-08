@@ -91,10 +91,10 @@ const Home = () => {
             <div className="cards-container1">
               <div className="card21">
                 <div className="container08"></div>
-                <h6 className="text14 textXL">FIND THE KEYS</h6>
+                <h6 className="text14 textXL">60 MINUTE TIME LIMIT</h6>
                 <span className="text15">
-                  Keys are used to progress to the next puzzle, can you find
-                  them all before time runs out?
+                  Can you and your group solve all the puzzles before time runs
+                  out?
                 </span>
               </div>
             </div>
