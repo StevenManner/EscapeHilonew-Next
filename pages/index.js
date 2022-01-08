@@ -816,12 +816,17 @@ const Home = () => {
             font-style: normal;
             margin-top: var(--dl-space-space-tripleunit);
             text-align: center;
+            transition: 0.3s;
             font-weight: 700;
             padding-top: var(--dl-space-space-unit);
             border-width: 0px;
             padding-bottom: var(--dl-space-space-unit);
             text-decoration: none;
             background-color: #39b300;
+          }
+          .link2:hover {
+            padding-top: var(--dl-space-space-doubleunit);
+            padding-bottom: var(--dl-space-space-doubleunit);
           }
           @media (max-width: 991px) {
             .cards-container {

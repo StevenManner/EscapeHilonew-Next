@@ -60,31 +60,36 @@ const Footer = (props) => {
             <span className="text01 textSM">
               <span className="text02">Hours of Operation</span>
               <br></br>
-              <span>Mon â Closed</span>
-              <span></span>
+              <span>Monday Closed</span>
               <br></br>
-              <span>Tues â 11:00AM â 5:00PM</span>
-              <span></span>
+              <span>
+                Tuesday 11:00 AM - 5:00 PM
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
               <br></br>
-              <span>Wed â Thu 1:00 pm â 5:00 pm</span>
-              <span></span>
+              <span>Wednesday to Thursday 1:00 - 5:00 PM</span>
               <br></br>
-              <span>Fri â 1:00 pm â 7:00 pm</span>
+              <span>Friday 1:00 - 7:00 PM</span>
+              <br></br>
+              <span>Saturday to Sunday 10:30 PM - 7:00 PM</span>
+              <br></br>
+              <span>Email or call to request special booking times</span>
+              <span></span>
               <span>&amp;#8203;</span>
               <span></span>
-              <br></br>
-              <span>Sat â Sun 10:30 pm â 7:00 pm</span>
               <span></span>
-              <br></br>
-              <span>email or call to request special booking times</span>
             </span>
           </div>
           <div className="container12">
             <div className="container13">
-              <span className="text16 textXS">OTHER RESOURCES</span>
-              <span className="text17 textSM">Terms &amp; Conditions</span>
-              <span className="text18 textSM">Privacy Policy</span>
-              <span className="text19 textSM">Contact Us</span>
+              <span className="text19 textXS">OTHER RESOURCES</span>
+              <span className="text20 textSM">Terms &amp; Conditions</span>
+              <span className="text21 textSM">Privacy Policy</span>
+              <span className="text22 textSM">Contact Us</span>
             </div>
           </div>
         </div>
@@ -93,7 +98,7 @@ const Footer = (props) => {
             <div className="container16"></div>
           </div>
         </div>
-        <span className="text20 textSM">
+        <span className="text23 textSM">
           Copyright Â© 2022 Hilo Experience LLC dba Escape Hilo | Design by
           Manner Media LLC
         </span>
@@ -264,20 +269,20 @@ const Footer = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .text16 {
+          .text19 {
             color: var(--dl-color-secondary-400);
             font-weight: 600;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .text17 {
+          .text20 {
             color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .text18 {
+          .text21 {
             color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .text19 {
+          .text22 {
             color: var(--dl-color-secondary-500);
           }
           .container14 {
@@ -305,7 +310,7 @@ const Footer = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .text20 {
+          .text23 {
             color: #000000;
             align-self: center;
             padding-top: var(--dl-space-space-twoandhalf);
@@ -369,7 +374,7 @@ const Footer = (props) => {
               width: auto;
               text-align: center;
             }
-            .text20 {
+            .text23 {
               width: 100%;
               height: 100%;
               align-self: flex-start;
