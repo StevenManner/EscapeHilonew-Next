@@ -270,7 +270,6 @@ const Home11 = () => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            position: relative;
             align-items: center;
             padding-top: var(--dl-space-space-tripleunit);
             padding-left: var(--dl-space-space-doubleunit);
@@ -807,10 +806,6 @@ const Home11 = () => {
             }
           }
           @media (max-width: 767px) {
-            .section1 {
-              padding-left: var(--dl-space-space-doubleunit);
-              padding-right: var(--dl-space-space-doubleunit);
-            }
             .container02 {
               width: 100%;
             }
