@@ -456,24 +456,24 @@ const Footer = (props) => {
 
 Footer.defaultProps = {
   text1: '308 Kamehameha Avenue, Suite 200',
+  image_alt21: 'image',
   image_src1: '/playground_assets/Phone%20Icon1-200h.png',
   image_src2: 'd1a66251-1259-4713-8dca-e6d13de2b7ce',
   text21: 'Hours of Operation',
+  image_src21: 'd1a66251-1259-4713-8dca-e6d13de2b7ce',
   image_alt2: 'image',
   image_alt1: 'image',
-  image_src21: 'd1a66251-1259-4713-8dca-e6d13de2b7ce',
-  image_alt21: 'image',
 }
 
 Footer.propTypes = {
   text1: PropTypes.string,
+  image_alt21: PropTypes.string,
   image_src1: PropTypes.string,
   image_src2: PropTypes.string,
   text21: PropTypes.string,
+  image_src21: PropTypes.string,
   image_alt2: PropTypes.string,
   image_alt1: PropTypes.string,
-  image_src21: PropTypes.string,
-  image_alt21: PropTypes.string,
 }
 
 export default Footer

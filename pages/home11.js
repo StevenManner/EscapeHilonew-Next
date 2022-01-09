@@ -108,8 +108,8 @@ const Home11 = () => {
               <div className="container08">
                 <div className="container09">
                   <img
-                    src="/playground_assets/5-1500h.jpg"
                     alt="image"
+                    src="/playground_assets/5-1500h.jpg"
                     className="image"
                   />
                 </div>
