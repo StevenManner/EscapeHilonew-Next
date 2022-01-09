@@ -18,10 +18,10 @@ const Header = (props) => {
         </Link>
         <Link href="/">
           <a className="link1">
-            <h1 className="heading1 button textSM">{props.heading13}</h1>
+            <h1 className="heading1 textSM">{props.heading13}</h1>
           </a>
         </Link>
-        <Link href="/about">
+        <Link href="/home11">
           <a className="link2">
             <h1 className="heading2 textSM">{props.heading12}</h1>
           </a>
@@ -89,13 +89,13 @@ const Header = (props) => {
             height: 75px;
             display: flex;
             padding: var(--dl-space-space-unitandhalf);
-            position: sticky;
-            max-width: 1320px;
-            align-items: center;
+            z-index: 2;
+            position: fixed;
+            align-items: flex-end;
             margin-bottom: 0.75rem;
             flex-direction: row;
             justify-content: space-between;
-            background-color: rgba(57, 57, 57, 0.35);
+            background-color: #ffffff;
           }
           .link {
             display: contents;
@@ -111,7 +111,7 @@ const Header = (props) => {
             display: contents;
           }
           .heading1 {
-            color: #4ade00;
+            color: var(--dl-color-secondary-400);
             font-weight: 700;
             margin-right: var(--dl-space-space-unit);
             text-decoration: none;
@@ -120,20 +120,20 @@ const Header = (props) => {
             display: contents;
           }
           .heading2 {
-            color: #4ade00;
+            color: #000000;
             font-weight: 700;
             text-decoration: none;
           }
           .heading3 {
-            color: #4ade00;
+            color: #000000;
             font-weight: 700;
           }
           .heading4 {
-            color: #4ade00;
+            color: #000000;
             font-weight: 700;
           }
           .heading5 {
-            color: #4ade00;
+            color: #000000;
             font-weight: 700;
           }
           .mobile-menu {
@@ -255,19 +255,17 @@ const Header = (props) => {
             margin-bottom: 0px;
           }
           .rootClassName1 {
-            top: -8px;
-            left: -8px;
+            top: 0px;
+            left: 0px;
             position: absolute;
+            background-color: transparent;
           }
           .rootClassName2 {
             top: 0px;
             left: 0px;
             position: absolute;
           }
-          .rootClassName3 {
-            top: 0px;
-            left: 0px;
-          }
+
           @media (max-width: 991px) {
             .header {
               max-width: 1320px;
@@ -310,6 +308,30 @@ const Header = (props) => {
             }
             .rootClassName {
               margin-bottom: 0px;
+            }
+          }
+          @media (max-width: 479px) {
+            .heading {
+              font-size: large;
+            }
+            .heading1 {
+              font-size: x-small;
+            }
+            .heading2 {
+              font-size: x-small;
+            }
+            .heading3 {
+              font-size: x-small;
+            }
+            .heading4 {
+              font-size: x-small;
+            }
+            .heading5 {
+              font-size: x-small;
+            }
+            .rootClassName3 {
+              width: 100%;
+              align-self: center;
             }
           }
         `}

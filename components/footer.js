@@ -10,8 +10,19 @@ const Footer = (props) => {
           <div className="container02">
             <div className="container03">
               <span className="text">
-                Find us on these platforms! Or click the telephone icon to call
-                us. Click on the GPS icon for directions!
+                <span className="text01">
+                  Find us on these platforms! Or click the telephone icon to
+                  call us.
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <br></br>
+                <span className="text03"></span>
+                <span className="text04">Click on the GPS icon for direc</span>
+                <span className="text05">tions!</span>
               </span>
               <div className="container04">
                 <div className="container05">
@@ -57,8 +68,8 @@ const Footer = (props) => {
         <div className="container09"></div>
         <div className="container10">
           <div className="container11">
-            <span className="text01 textSM">
-              <span className="text02">Hours of Operation</span>
+            <span className="text06 textSM">
+              <span className="text07">Hours of Operation</span>
               <br></br>
               <span>Monday Closed</span>
               <br></br>
@@ -86,10 +97,10 @@ const Footer = (props) => {
           </div>
           <div className="container12">
             <div className="container13">
-              <span className="text19 textXS">OTHER RESOURCES</span>
-              <span className="text20 textSM">Terms &amp; Conditions</span>
-              <span className="text21 textSM">Privacy Policy</span>
-              <span className="text22 textSM">Contact Us</span>
+              <span className="text24 textXS">OTHER RESOURCES</span>
+              <span className="text25 textSM">Terms &amp; Conditions</span>
+              <span className="text26 textSM">Privacy Policy</span>
+              <span className="text27 textSM">Contact Us</span>
             </div>
           </div>
         </div>
@@ -98,7 +109,7 @@ const Footer = (props) => {
             <div className="container16"></div>
           </div>
         </div>
-        <span className="text23 textSM">
+        <span className="text28 textSM">
           Copyright Â© 2022 Hilo Experience LLC dba Escape Hilo | Design by
           Manner Media LLC
         </span>
@@ -140,6 +151,22 @@ const Footer = (props) => {
           }
           .text {
             color: #000000;
+            align-self: center;
+            text-align: center;
+            font-weight: 700;
+          }
+          .text01 {
+            text-align: center;
+            font-weight: 700;
+          }
+          .text03 {
+            text-align: center;
+          }
+          .text04 {
+            text-align: center;
+            font-weight: 700;
+          }
+          .text05 {
             font-weight: 700;
           }
           .container04 {
@@ -245,12 +272,12 @@ const Footer = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .text01 {
+          .text06 {
             color: #000000;
             font-style: normal;
             text-align: left;
           }
-          .text02 {
+          .text07 {
             font-style: normal;
             font-weight: 700;
           }
@@ -269,20 +296,20 @@ const Footer = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .text19 {
+          .text24 {
             color: var(--dl-color-secondary-400);
             font-weight: 600;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .text20 {
+          .text25 {
             color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .text21 {
+          .text26 {
             color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .text22 {
+          .text27 {
             color: var(--dl-color-secondary-500);
           }
           .container14 {
@@ -310,7 +337,7 @@ const Footer = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .text23 {
+          .text28 {
             color: #000000;
             align-self: center;
             padding-top: var(--dl-space-space-twoandhalf);
@@ -340,7 +367,7 @@ const Footer = (props) => {
             .container11 {
               width: 33%;
             }
-            .text01 {
+            .text06 {
               align-self: flex-start;
               margin-right: var(--dl-space-space-unit);
             }
@@ -370,11 +397,11 @@ const Footer = (props) => {
               width: auto;
               height: auto;
             }
-            .text01 {
+            .text06 {
               width: auto;
               text-align: center;
             }
-            .text23 {
+            .text28 {
               width: 100%;
               height: 100%;
               align-self: flex-start;
