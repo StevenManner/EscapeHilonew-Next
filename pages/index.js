@@ -163,11 +163,19 @@ const Home1 = () => {
                 </span>
               </div>
               <div className="container10">
-                <div className="container11"></div>
+                <div className="container11">
+                  <img
+                    src="/playground_assets/5-1500h.jpg"
+                    alt="image"
+                    loading="lazy"
+                    className="image06"
+                  />
+                </div>
                 <img
-                  alt="image"
+                  alt="stars"
                   src="/playground_assets/5stars-200h.png"
-                  className="image06"
+                  loading="lazy"
+                  className="image07"
                 />
                 <h4 className="text27 healine">Five Star Reviews on Google!</h4>
                 <span className="text28">
@@ -182,7 +190,7 @@ const Home1 = () => {
           <img
             alt="image"
             src="/playground_assets/white-vector.svg"
-            className="image07"
+            className="image08"
           />
         </div>
         <div className="section2">
@@ -192,13 +200,13 @@ const Home1 = () => {
                 <img
                   alt="image"
                   src="5a04a87c-e59a-451a-934b-a941f924cbf9"
-                  className="image08"
+                  className="image09"
                 />
                 <span className="text30">Ramses G.</span>
                 <img
                   alt="image"
                   src="/playground_assets/5stars-200h.png"
-                  className="image09"
+                  className="image10"
                 />
                 <span className="text31">
                   <span>
@@ -219,13 +227,13 @@ const Home1 = () => {
                 <img
                   alt="image"
                   src="/playground_assets/ryan_3-200h.png"
-                  className="image10"
+                  className="image11"
                 />
                 <span className="text34">Julie R.</span>
                 <img
                   alt="image"
                   src="/playground_assets/5stars-200h.png"
-                  className="image11"
+                  className="image12"
                 />
                 <span className="text35">
                   <span>
@@ -249,13 +257,13 @@ const Home1 = () => {
                     <img
                       alt="image"
                       src="af1947fa-2dae-44a1-ab41-202d74d8a378"
-                      className="image12"
+                      className="image13"
                     />
                     <span className="text37">Brandon Hoffman</span>
                     <img
                       alt="image"
                       src="/playground_assets/5stars-200h.png"
-                      className="image13"
+                      className="image14"
                     />
                     <span className="text38">
                       <span>
@@ -275,13 +283,13 @@ const Home1 = () => {
                     <img
                       alt="image"
                       src="6f41be71-e51f-43a4-b406-9ea64db799a3"
-                      className="image14"
+                      className="image15"
                     />
                     <span className="text40">Tiffany Plagenza</span>
                     <img
                       alt="image"
                       src="/playground_assets/5stars-200h.png"
-                      className="image15"
+                      className="image16"
                     />
                     <span className="text41">
                       <span>
@@ -669,18 +677,19 @@ const Home1 = () => {
           }
           .container11 {
             width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
             height: 243px;
             display: flex;
-            align-items: stretch;
+            align-items: center;
             border-radius: 0px;
             flex-direction: row;
-            background-size: cover;
-            justify-content: space-between;
-            background-image: 711020c2-789d-4b0f-8013-7196c462f03b;
-            background-position: center;
+            justify-content: center;
           }
           .image06 {
+            width: 100%;
+            object-fit: cover;
+            padding-bottom: var(--dl-space-space-doubleunit);
+          }
+          .image07 {
             width: 200px;
             height: 50px;
             align-self: center;
@@ -703,7 +712,7 @@ const Home1 = () => {
             margin-right: var(--dl-space-space-unit);
             margin-bottom: var(--dl-space-space-unit);
           }
-          .image07 {
+          .image08 {
             top: auto;
             left: auto;
             right: 0px;
@@ -744,7 +753,7 @@ const Home1 = () => {
             flex-direction: column;
             justify-content: center;
           }
-          .image08 {
+          .image09 {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -754,7 +763,7 @@ const Home1 = () => {
             text-align: center;
             font-weight: 700;
           }
-          .image09 {
+          .image10 {
             width: 100px;
             object-fit: cover;
           }
@@ -768,7 +777,7 @@ const Home1 = () => {
             flex-direction: column;
             justify-content: center;
           }
-          .image10 {
+          .image11 {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -778,7 +787,7 @@ const Home1 = () => {
             text-align: center;
             font-weight: 700;
           }
-          .image11 {
+          .image12 {
             width: 100px;
             object-fit: cover;
           }
@@ -796,7 +805,7 @@ const Home1 = () => {
             justify-content: center;
             text-decoration: none;
           }
-          .image12 {
+          .image13 {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -806,7 +815,7 @@ const Home1 = () => {
             text-align: center;
             font-weight: 700;
           }
-          .image13 {
+          .image14 {
             width: 100px;
             object-fit: cover;
           }
@@ -824,7 +833,7 @@ const Home1 = () => {
             justify-content: center;
             text-decoration: none;
           }
-          .image14 {
+          .image15 {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -834,7 +843,7 @@ const Home1 = () => {
             text-align: center;
             font-weight: 700;
           }
-          .image15 {
+          .image16 {
             width: 100px;
             object-fit: cover;
           }

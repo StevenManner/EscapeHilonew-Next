@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 const Header = (props) => {
   return (
     <>
-      <div
+      <header
         id="header"
         data-role="Header"
         className={`header ${props.rootClassName} `}
@@ -79,7 +79,7 @@ const Header = (props) => {
             </svg>
           </div>
         </div>
-      </div>
+      </header>
       <style jsx>
         {`
           .header {
@@ -268,7 +268,7 @@ const Header = (props) => {
 
           @media (max-width: 991px) {
             .header {
-              max-width: 1320px;
+              max-width: 100%;
               margin-bottom: var(--dl-space-space-triplequarter);
             }
             .icon09 {
