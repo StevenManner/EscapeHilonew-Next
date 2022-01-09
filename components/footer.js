@@ -27,15 +27,28 @@ const Footer = (props) => {
               <div className="container04">
                 <div className="container05">
                   <a
-                    href="https://www.instagram.com/escapehilo/"
+                    href="https://goo.gl/maps/iHxK17FhxFr4WQYq8"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="link"
                   >
                     <div className="container06">
                       <img
-                        src="/playground_assets/ig-200h.webp"
+                        src="/playground_assets/gmapspin-200h.png"
                         className="image"
+                      />
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/escapehilo/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="link1"
+                  >
+                    <div className="container07">
+                      <img
+                        src="/playground_assets/ig-200h.webp"
+                        className="image1"
                       />
                     </div>
                   </a>
@@ -43,20 +56,20 @@ const Footer = (props) => {
                     href="https://www.facebook.com/EscapeHiloHawaii"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="link1"
+                    className="link2"
                   >
-                    <div className="container07">
+                    <div className="container08">
                       <svg viewBox="0 0 1024 1024" className="icon">
                         <path d="M928 0h-832c-52.8 0-96 43.2-96 96v832c0 52.8 43.2 96 96 96h416v-448h-128v-128h128v-64c0-105.8 86.2-192 192-192h128v128h-128c-35.2 0-64 28.8-64 64v64h192l-32 128h-160v448h288c52.8 0 96-43.2 96-96v-832c0-52.8-43.2-96-96-96z"></path>
                       </svg>
                     </div>
                   </a>
-                  <a href="tel:+18089699696" className="link2">
-                    <div className="container08">
+                  <a href="tel:+18089699696" className="link3">
+                    <div className="container09">
                       <img
                         alt={props.image_alt1}
                         src={props.image_src1}
-                        className="image1"
+                        className="image2"
                       />
                     </div>
                   </a>
@@ -65,9 +78,9 @@ const Footer = (props) => {
             </div>
           </div>
         </div>
-        <div className="container09"></div>
-        <div className="container10">
-          <div className="container11">
+        <div className="container10"></div>
+        <div className="container11">
+          <div className="container12">
             <span className="text06 textSM">
               <span className="text07">Hours of Operation</span>
               <br></br>
@@ -95,8 +108,8 @@ const Footer = (props) => {
               <span></span>
             </span>
           </div>
-          <div className="container12">
-            <div className="container13">
+          <div className="container13">
+            <div className="container14">
               <span className="text24 textXS">OTHER RESOURCES</span>
               <span className="text25 textSM">Terms &amp; Conditions</span>
               <span className="text26 textSM">Privacy Policy</span>
@@ -104,9 +117,9 @@ const Footer = (props) => {
             </div>
           </div>
         </div>
-        <div className="container14">
-          <div className="container15">
-            <div className="container16"></div>
+        <div className="container15">
+          <div className="container16">
+            <div className="container17"></div>
           </div>
         </div>
         <span className="text28 textSM">
@@ -151,6 +164,7 @@ const Footer = (props) => {
           }
           .text {
             color: #000000;
+            width: 100%;
             align-self: center;
             text-align: center;
             font-weight: 700;
@@ -219,10 +233,10 @@ const Footer = (props) => {
             text-decoration: none;
             background-color: var(--dl-color-gray-white);
           }
-          .icon {
-            fill: #4267B2;
+          .image1 {
             width: 25px;
             height: 25px;
+            object-fit: cover;
           }
           .link2 {
             display: contents;
@@ -240,12 +254,33 @@ const Footer = (props) => {
             text-decoration: none;
             background-color: var(--dl-color-gray-white);
           }
-          .image1 {
+          .icon {
+            fill: #4267B2;
+            width: 25px;
+            height: 25px;
+          }
+          .link3 {
+            display: contents;
+          }
+          .container09 {
+            flex: 0 0 auto;
+            width: 2.5rem;
+            height: 2.5rem;
+            display: flex;
+            box-shadow: 5px 5px 10px 0px #d4d4d4;
+            align-items: center;
+            border-radius: var(--dl-radius-radius-round);
+            flex-direction: row;
+            justify-content: center;
+            text-decoration: none;
+            background-color: var(--dl-color-gray-white);
+          }
+          .image2 {
             width: 25px;
             height: 25px;
             object-fit: cover;
           }
-          .container09 {
+          .container10 {
             flex: 0 0 auto;
             width: auto;
             border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -254,7 +289,7 @@ const Footer = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .container10 {
+          .container11 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -262,7 +297,7 @@ const Footer = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
             justify-content: center;
           }
-          .container11 {
+          .container12 {
             flex: 0 0 auto;
             width: 33%;
             height: 100px;
@@ -281,14 +316,14 @@ const Footer = (props) => {
             font-style: normal;
             font-weight: 700;
           }
-          .container12 {
+          .container13 {
             flex: 0 0 auto;
             height: auto;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .container13 {
+          .container14 {
             flex: 0 0 auto;
             display: flex;
             align-self: center;
@@ -312,14 +347,6 @@ const Footer = (props) => {
           .text27 {
             color: var(--dl-color-secondary-500);
           }
-          .container14 {
-            flex: 0 0 auto;
-            width: auto;
-            height: auto;
-            display: flex;
-            align-items: flex-start;
-            justify-content: center;
-          }
           .container15 {
             flex: 0 0 auto;
             width: auto;
@@ -329,6 +356,14 @@ const Footer = (props) => {
             justify-content: center;
           }
           .container16 {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .container17 {
             flex: 0 0 auto;
             width: auto;
             border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -343,11 +378,14 @@ const Footer = (props) => {
             padding-top: var(--dl-space-space-twoandhalf);
           }
           @media (max-width: 991px) {
+            .text {
+              font-size: small;
+            }
             .container04 {
               align-items: center;
               margin-bottom: var(--dl-space-space-doubleunit);
             }
-            .container13 {
+            .container14 {
               align-items: center;
             }
           }
@@ -361,17 +399,18 @@ const Footer = (props) => {
             .container04 {
               width: 597px;
             }
-            .container10 {
-              width: 100%;
-            }
             .container11 {
+              width: 100%;
+              align-items: stretch;
+            }
+            .container12 {
               width: 33%;
             }
             .text06 {
               align-self: flex-start;
               margin-right: var(--dl-space-space-unit);
             }
-            .container13 {
+            .container14 {
               width: 33%;
               align-items: center;
             }
@@ -390,10 +429,10 @@ const Footer = (props) => {
             .container04 {
               width: auto;
             }
-            .container10 {
+            .container11 {
               width: 100%;
             }
-            .container11 {
+            .container12 {
               width: auto;
               height: auto;
             }
@@ -406,6 +445,7 @@ const Footer = (props) => {
               height: 100%;
               align-self: flex-start;
               text-align: center;
+              padding-bottom: var(--dl-space-space-tripleunit);
             }
           }
         `}
@@ -421,6 +461,8 @@ Footer.defaultProps = {
   text21: 'Hours of Operation',
   image_alt2: 'image',
   image_alt1: 'image',
+  image_src21: 'd1a66251-1259-4713-8dca-e6d13de2b7ce',
+  image_alt21: 'image',
 }
 
 Footer.propTypes = {
@@ -430,6 +472,8 @@ Footer.propTypes = {
   text21: PropTypes.string,
   image_alt2: PropTypes.string,
   image_alt1: PropTypes.string,
+  image_src21: PropTypes.string,
+  image_alt21: PropTypes.string,
 }
 
 export default Footer

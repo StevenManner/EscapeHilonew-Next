@@ -106,11 +106,17 @@ const Home11 = () => {
                 </span>
               </div>
               <div className="container08">
-                <div className="container09"></div>
+                <div className="container09">
+                  <img
+                    src="/playground_assets/5-1500h.jpg"
+                    alt="image"
+                    className="image"
+                  />
+                </div>
                 <img
                   alt="image"
                   src="b8324887-abfb-4c68-bfd1-9009725db866"
-                  className="image"
+                  className="image01"
                 />
                 <h4 className="text24 healine">Five Star Reviews on Google!</h4>
                 <span className="text25">
@@ -125,7 +131,7 @@ const Home11 = () => {
           <img
             alt="image"
             src="/playground_assets/white-vector.svg"
-            className="image01"
+            className="image02"
           />
         </div>
         <div className="section2">
@@ -135,13 +141,13 @@ const Home11 = () => {
                 <img
                   alt="image"
                   src="5a04a87c-e59a-451a-934b-a941f924cbf9"
-                  className="image02"
+                  className="image03"
                 />
                 <span className="text27">Ramses G.</span>
                 <img
                   alt="image"
                   src="b8324887-abfb-4c68-bfd1-9009725db866"
-                  className="image03"
+                  className="image04"
                 />
                 <span className="text28">
                   <span>
@@ -162,13 +168,13 @@ const Home11 = () => {
                 <img
                   alt="image"
                   src="c390f1a3-fef3-4665-81d7-4f204a18ffc5"
-                  className="image04"
+                  className="image05"
                 />
                 <span className="text31">Julie R.</span>
                 <img
                   alt="image"
                   src="b8324887-abfb-4c68-bfd1-9009725db866"
-                  className="image05"
+                  className="image06"
                 />
                 <span className="text32">
                   <span>
@@ -191,14 +197,14 @@ const Home11 = () => {
                   <div className="container13">
                     <img
                       alt="image"
-                      src="af1947fa-2dae-44a1-ab41-202d74d8a378"
-                      className="image06"
+                      src="/playground_assets/ryan_4-200h.png"
+                      className="image07"
                     />
                     <span className="text34">Brandon Hoffman</span>
                     <img
                       alt="image"
                       src="b8324887-abfb-4c68-bfd1-9009725db866"
-                      className="image07"
+                      className="image08"
                     />
                     <span className="text35">
                       <span>
@@ -217,14 +223,14 @@ const Home11 = () => {
                   <div className="container14">
                     <img
                       alt="image"
-                      src="6f41be71-e51f-43a4-b406-9ea64db799a3"
-                      className="image08"
+                      src="/playground_assets/ryan_5-200h.png"
+                      className="image09"
                     />
                     <span className="text37">Tiffany Plagenza</span>
                     <img
                       alt="image"
                       src="b8324887-abfb-4c68-bfd1-9009725db866"
-                      className="image09"
+                      className="image10"
                     />
                     <span className="text38">
                       <span>
@@ -465,7 +471,7 @@ const Home11 = () => {
             flex-direction: row;
             background-size: cover;
             justify-content: center;
-            background-image: url('https://play.teleporthq.io/static/svg/placeholders/no-image.svg');
+            background-image: url('/playground_assets/hourglass-200h.png');
           }
           .text11 {
             color: var(--dl-color-secondary-100);
@@ -537,21 +543,23 @@ const Home11 = () => {
           }
           .container09 {
             width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
             height: 243px;
             display: flex;
-            align-items: stretch;
+            align-items: center;
             border-radius: 0px;
             flex-direction: row;
-            background-size: cover;
-            justify-content: space-between;
-            background-image: 711020c2-789d-4b0f-8013-7196c462f03b;
-            background-position: center;
+            justify-content: center;
           }
           .image {
+            width: 100%;
+            object-fit: cover;
+            margin-bottom: var(--dl-space-space-triplequarter);
+          }
+          .image01 {
             width: 200px;
             height: 50px;
             align-self: center;
+            margin-top: var(--dl-space-space-unit);
             object-fit: cover;
           }
           .text24 {
@@ -567,9 +575,11 @@ const Home11 = () => {
             text-align: center;
             font-weight: 400;
             line-height: 2;
+            margin-left: var(--dl-space-space-doubleunit);
+            margin-right: var(--dl-space-space-doubleunit);
             margin-bottom: var(--dl-space-space-unit);
           }
-          .image01 {
+          .image02 {
             top: auto;
             left: auto;
             right: 0px;
@@ -610,7 +620,7 @@ const Home11 = () => {
             flex-direction: column;
             justify-content: center;
           }
-          .image02 {
+          .image03 {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -620,7 +630,7 @@ const Home11 = () => {
             text-align: center;
             font-weight: 700;
           }
-          .image03 {
+          .image04 {
             width: 100px;
             object-fit: cover;
           }
@@ -634,7 +644,7 @@ const Home11 = () => {
             flex-direction: column;
             justify-content: center;
           }
-          .image04 {
+          .image05 {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -644,7 +654,7 @@ const Home11 = () => {
             text-align: center;
             font-weight: 700;
           }
-          .image05 {
+          .image06 {
             width: 100px;
             object-fit: cover;
           }
@@ -662,7 +672,7 @@ const Home11 = () => {
             justify-content: center;
             text-decoration: none;
           }
-          .image06 {
+          .image07 {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -672,7 +682,7 @@ const Home11 = () => {
             text-align: center;
             font-weight: 700;
           }
-          .image07 {
+          .image08 {
             width: 100px;
             object-fit: cover;
           }
@@ -690,7 +700,7 @@ const Home11 = () => {
             justify-content: center;
             text-decoration: none;
           }
-          .image08 {
+          .image09 {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -700,7 +710,7 @@ const Home11 = () => {
             text-align: center;
             font-weight: 700;
           }
-          .image09 {
+          .image10 {
             width: 100px;
             object-fit: cover;
           }
