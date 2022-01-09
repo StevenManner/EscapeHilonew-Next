@@ -667,7 +667,7 @@ const Home1 = () => {
           .container10 {
             flex: 0 0 auto;
             width: 33%;
-            height: 100%;
+            height: 32rem;
             display: flex;
             position: relative;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
@@ -691,7 +691,7 @@ const Home1 = () => {
           .image06 {
             width: 100%;
             object-fit: cover;
-            padding-bottom: var(--dl-space-space-doubleunit);
+            padding-bottom: var(--dl-space-space-unit);
           }
           .image07 {
             width: 200px;
@@ -745,7 +745,7 @@ const Home1 = () => {
           }
           .container12 {
             display: flex;
-            max-width: 1320px;
+            max-width: 100%;
             align-items: flex-start;
             padding-left: var(--dl-space-space-doubleunit);
             padding-right: var(--dl-space-space-doubleunit);
@@ -841,6 +841,7 @@ const Home1 = () => {
           }
           .container16 {
             display: flex;
+            align-self: center;
             align-items: center;
             border-color: #000000;
             border-style: inset;
@@ -1033,8 +1034,17 @@ const Home1 = () => {
               align-items: center;
               flex-direction: column;
             }
+            .container13 {
+              width: 100%;
+            }
+            .container14 {
+              width: 100%;
+            }
             .container15 {
-              width: auto;
+              width: 100%;
+            }
+            .container16 {
+              width: 100%;
             }
           }
         `}

@@ -88,12 +88,15 @@ const Header = (props) => {
             width: 100%;
             height: 75px;
             display: flex;
-            padding: var(--dl-space-space-unitandhalf);
             z-index: 2;
             position: fixed;
             align-items: flex-end;
+            padding-top: var(--dl-space-space-unitandhalf);
+            padding-left: var(--dl-space-space-tripleunit);
             margin-bottom: 0.75rem;
+            padding-right: var(--dl-space-space-tripleunit);
             flex-direction: row;
+            padding-bottom: var(--dl-space-space-unitandhalf);
             justify-content: space-between;
             background-color: #ffffff;
           }
