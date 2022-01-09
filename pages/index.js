@@ -937,8 +937,7 @@ const Home1 = () => {
               position: relative;
             }
             .container12 {
-              width: auto;
-              max-width: auto;
+              width: 100%;
               padding-left: 0px;
               padding-right: 0px;
             }
