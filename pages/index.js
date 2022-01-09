@@ -414,7 +414,6 @@ const Home1 = () => {
           .container03 {
             width: 100%;
             display: flex;
-            max-width: 1320px;
             align-items: center;
             flex-direction: column;
           }
@@ -913,7 +912,6 @@ const Home1 = () => {
               margin-bottom: var(--dl-space-space-fiveunits);
             }
             .container10 {
-              width: 20rem;
               height: auto;
             }
             .text27 {
@@ -958,9 +956,6 @@ const Home1 = () => {
             .section1 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
-            }
-            .container04 {
-              width: 100%;
             }
             .work-with-us {
               margin-top: var(--dl-space-space-tripleunit);
