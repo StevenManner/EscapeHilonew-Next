@@ -339,6 +339,7 @@ const Home1 = () => {
             align-items: center;
             flex-direction: column;
             background-size: cover;
+            justify-content: center;
             background-image: url('/playground_assets/junglebg-1500h.jpg');
           }
           .bg {
@@ -405,10 +406,9 @@ const Home1 = () => {
             position: relative;
             align-items: center;
             padding-top: var(--dl-space-space-tripleunit);
-            padding-left: var(--dl-space-space-doubleunit);
-            padding-right: var(--dl-space-space-doubleunit);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
+            justify-content: center;
             background-color: var(--dl-color-pimary-900);
           }
           .container03 {
@@ -733,6 +733,7 @@ const Home1 = () => {
             padding-top: var(--dl-space-space-doubleunit);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-doubleunit);
+            justify-content: center;
           }
           .team {
             flex: 0 0 auto;
