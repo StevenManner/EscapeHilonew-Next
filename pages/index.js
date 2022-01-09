@@ -199,7 +199,8 @@ const Home1 = () => {
               <div className="container13">
                 <img
                   alt="image"
-                  src="5a04a87c-e59a-451a-934b-a941f924cbf9"
+                  src="/playground_assets/ryan_2-200h.png"
+                  loading="lazy"
                   className="image09"
                 />
                 <span className="text30">Ramses G.</span>
@@ -227,6 +228,7 @@ const Home1 = () => {
                 <img
                   alt="image"
                   src="/playground_assets/ryan_3-200h.png"
+                  loading="lazy"
                   className="image11"
                 />
                 <span className="text34">Julie R.</span>
@@ -256,7 +258,8 @@ const Home1 = () => {
                   <div className="container15">
                     <img
                       alt="image"
-                      src="af1947fa-2dae-44a1-ab41-202d74d8a378"
+                      src="/playground_assets/ryan_4-200h.png"
+                      loading="lazy"
                       className="image13"
                     />
                     <span className="text37">Brandon Hoffman</span>
@@ -282,7 +285,8 @@ const Home1 = () => {
                   <div className="container16">
                     <img
                       alt="image"
-                      src="6f41be71-e51f-43a4-b406-9ea64db799a3"
+                      src="/playground_assets/ryan_5-200h.png"
+                      loading="lazy"
                       className="image15"
                     />
                     <span className="text40">Tiffany Plagenza</span>
@@ -750,6 +754,9 @@ const Home1 = () => {
           .container13 {
             display: flex;
             align-items: center;
+            border-color: #000000;
+            border-style: inset;
+            border-width: 1px;
             flex-direction: column;
             justify-content: center;
           }
@@ -774,6 +781,9 @@ const Home1 = () => {
           .container14 {
             display: flex;
             align-items: center;
+            border-color: #000000;
+            border-style: inset;
+            border-width: 1px;
             flex-direction: column;
             justify-content: center;
           }
@@ -801,6 +811,9 @@ const Home1 = () => {
           .container15 {
             display: flex;
             align-items: center;
+            border-color: #000000;
+            border-style: inset;
+            border-width: 1px;
             flex-direction: column;
             justify-content: center;
             text-decoration: none;
@@ -829,6 +842,9 @@ const Home1 = () => {
           .container16 {
             display: flex;
             align-items: center;
+            border-color: #000000;
+            border-style: inset;
+            border-width: 1px;
             flex-direction: column;
             justify-content: center;
             text-decoration: none;

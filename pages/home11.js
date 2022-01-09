@@ -616,6 +616,10 @@ const Home11 = () => {
           .container11 {
             display: flex;
             align-items: center;
+            border-color: #000000;
+            border-width: 1px;
+            padding-left: var(--dl-space-space-halfunit);
+            padding-right: var(--dl-space-space-halfunit);
             flex-direction: column;
             justify-content: center;
           }
@@ -640,6 +644,8 @@ const Home11 = () => {
           .container12 {
             display: flex;
             align-items: center;
+            border-color: #000000;
+            border-width: 1px;
             flex-direction: column;
             justify-content: center;
           }
@@ -660,6 +666,8 @@ const Home11 = () => {
           .text32 {
             color: #000000;
             text-align: center;
+            padding-left: var(--dl-space-space-halfunit);
+            padding-right: var(--dl-space-space-halfunit);
           }
           .link {
             display: contents;
@@ -667,6 +675,10 @@ const Home11 = () => {
           .container13 {
             display: flex;
             align-items: center;
+            border-color: #000000;
+            border-width: 1px;
+            padding-left: var(--dl-space-space-halfunit);
+            padding-right: var(--dl-space-space-halfunit);
             flex-direction: column;
             justify-content: center;
             text-decoration: none;
@@ -695,6 +707,10 @@ const Home11 = () => {
           .container14 {
             display: flex;
             align-items: center;
+            border-color: #000000;
+            border-width: 1px;
+            padding-left: var(--dl-space-space-halfunit);
+            padding-right: var(--dl-space-space-halfunit);
             flex-direction: column;
             justify-content: center;
             text-decoration: none;
