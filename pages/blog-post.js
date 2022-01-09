@@ -69,7 +69,7 @@ const BlogPost = () => {
             </h3>
             <img
               alt="image"
-              src="/playground_assets/new-york-city-1400w.jpg"
+              src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
               className="image"
             />
             <span className="text11 textLG">
@@ -120,7 +120,7 @@ const BlogPost = () => {
             </span>
             <img
               alt="image"
-              src="/playground_assets/sofia-kuniakina-1100w.jpg"
+              src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
               className="image1"
             />
             <h3 className="text26 text2XL">Rest of the Story</h3>
@@ -168,7 +168,7 @@ const BlogPost = () => {
                 <div className="container05">
                   <img
                     alt="image"
-                    src="/playground_assets/team5-1400w.jpg"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="image2"
                   />
                   <div className="container06">
@@ -191,7 +191,7 @@ const BlogPost = () => {
               </span>
               <img
                 alt="image"
-                src="/playground_assets/new-york-city-1400w.jpg"
+                src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                 className="image3"
               />
               <div className="container08">
@@ -212,17 +212,17 @@ const BlogPost = () => {
                 <div className="container10">
                   <img
                     alt="image"
-                    src="/playground_assets/team5-1400w.jpg"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="image4"
                   />
                   <img
                     alt="image"
-                    src="/playground_assets/team6-200h.jpg"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="image5"
                   />
                   <img
                     alt="image"
-                    src="/playground_assets/team1-200h.jpg"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="image6"
                   />
                   <span className="text43 textXS">and 30+ more</span>
@@ -233,19 +233,19 @@ const BlogPost = () => {
               <PostReaction
                 name="Michael Lewis"
                 likes="3"
-                image_src="/playground_assets/team1-200h.jpg"
+                image_src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
               ></PostReaction>
               <PostReaction
                 name="Jessica Stones"
                 text="I always felt like I could do anything. Thatâs the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down."
                 shares="1"
-                image_src="/playground_assets/team6-200h.jpg"
+                image_src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
               ></PostReaction>
               <span className="text45 textSM">Load next</span>
               <div className="container11">
                 <img
                   alt="image"
-                  src="/playground_assets/team4-200h.png"
+                  src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                   className="image7"
                 />
                 <textarea
@@ -269,20 +269,20 @@ const BlogPost = () => {
               short, and I do not want to drown myself, as others would like.
             </span>
           </div>
-          <ArticleCard avatar_src="/playground_assets/team3-200h.jpg"></ArticleCard>
+          <ArticleCard avatar_src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"></ArticleCard>
           <ArticleCard
             name="Paul Smith"
             time="Drawn on 23 April"
             title="MateLabs mixes learning with IFTTT"
-            image_src="/playground_assets/team5-1400w.jpg"
-            avatar_src="/playground_assets/team1-200h.jpg"
+            image_src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+            avatar_src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
           ></ArticleCard>
           <ArticleCard
             name="Jasmine Taylor"
             time="Drawn on 23 April"
             title="US venture investment ticks up in Q2"
-            image_src="/playground_assets/team3-200h.jpg"
-            avatar_src="/playground_assets/team2-200h.jpg"
+            image_src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+            avatar_src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
           ></ArticleCard>
         </div>
         <Footer></Footer>
@@ -307,7 +307,7 @@ const BlogPost = () => {
             flex-direction: column;
             background-size: cover;
             justify-content: flex-start;
-            background-image: url('/playground_assets/photo-1-1500h.jpg');
+            background-image: url('https://play.teleporthq.io/static/svg/placeholders/no-image.svg');
           }
           .fixed-header {
             width: 100%;

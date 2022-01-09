@@ -120,7 +120,7 @@ const PostReaction = (props) => {
 }
 
 PostReaction.defaultProps = {
-  image_src: '/playground_assets/team4-200h.png',
+  image_src: '15958451-f790-4024-a70e-cc38b82637f2',
   name: 'John Snow',
   image_alt: 'image',
   likes: '10',

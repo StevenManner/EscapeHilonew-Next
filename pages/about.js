@@ -105,7 +105,7 @@ const About = () => {
                 <div className="container09"></div>
                 <img
                   alt="image"
-                  src="/playground_assets/kisspng-5-star-guest-house-car-dealership-film-scratches-5b4ab62ac141e9.4054372515316229547916-removebg-preview-200h.png"
+                  src="/playground_assets/5stars-200h.png"
                   className="image"
                 />
                 <h4 className="text22 healine">Five Star Reviews on Google!</h4>
@@ -143,7 +143,7 @@ const About = () => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
             background-size: cover;
-            background-image: url('/playground_assets/isaac-quesada-6xxxvb72qb0-unsplash%5B1%5D-1500h.jpg');
+            background-image: url('/playground_assets/junglebg-1500h.jpg');
             background-repeat: no-repeat;
             background-position: center;
           }
@@ -247,7 +247,7 @@ const About = () => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('/playground_assets/icons8-key-120-1500h.png');
+            background-image: url('/playground_assets/key-1500h.png');
           }
           .text05 {
             color: var(--dl-color-secondary-100);
@@ -285,7 +285,7 @@ const About = () => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('/playground_assets/icons8-check-all-192-1500h.png');
+            background-image: url('/playground_assets/check-1500h.png');
           }
           .text07 {
             color: var(--dl-color-secondary-100);
@@ -333,7 +333,7 @@ const About = () => {
             flex-direction: row;
             background-size: cover;
             justify-content: center;
-            background-image: url('/playground_assets/hourglass%5B1%5D-200h.png');
+            background-image: url('https://play.teleporthq.io/static/svg/placeholders/no-image.svg');
           }
           .text09 {
             color: var(--dl-color-secondary-100);

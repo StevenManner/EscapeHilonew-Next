@@ -33,7 +33,7 @@ const Profile = () => {
             </div>
             <img
               alt="image"
-              src="/playground_assets/143018099_3642107592509053_474727204317361542_n-200w.jpg"
+              src="/playground_assets/ryanselfie-200w.jpg"
               className="image2"
             />
             <div className="container4">
@@ -91,7 +91,7 @@ const Profile = () => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('/playground_assets/110313253_1186372625074776_1815455200344566837_n-1500w.jpg');
+            background-image: url('/playground_assets/door-1500w.jpg');
             background-repeat: space;
             background-position: center;
           }

@@ -34,7 +34,7 @@ const Footer = (props) => {
                   >
                     <div className="container06">
                       <img
-                        src="/playground_assets/instagram_icon.png-200h.webp"
+                        src="/playground_assets/ig-200h.webp"
                         className="image"
                       />
                     </div>
@@ -416,8 +416,7 @@ const Footer = (props) => {
 
 Footer.defaultProps = {
   text1: '308 Kamehameha Avenue, Suite 200',
-  image_src1:
-    '/playground_assets/98c828953930ca387b6c89c17c7df2c0-removebg-preview-200h.png',
+  image_src1: '/playground_assets/Phone%20Icon1-200h.png',
   image_src2: 'd1a66251-1259-4713-8dca-e6d13de2b7ce',
   text21: 'Hours of Operation',
   image_alt2: 'image',

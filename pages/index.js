@@ -81,7 +81,7 @@ const Home1 = () => {
                 <div className="container06">
                   <img
                     alt="image"
-                    src="/playground_assets/icons8-key-120-1500h.png"
+                    src="/playground_assets/key-1500h.png"
                     className="image03"
                   />
                 </div>
@@ -95,7 +95,7 @@ const Home1 = () => {
                 <div className="container07">
                   <img
                     alt="image"
-                    src="/playground_assets/icons8-check-all-192-1500h.png"
+                    src="/playground_assets/check-1500h.png"
                     className="image04"
                   />
                 </div>
@@ -166,7 +166,7 @@ const Home1 = () => {
                 <div className="container11"></div>
                 <img
                   alt="image"
-                  src="b8324887-abfb-4c68-bfd1-9009725db866"
+                  src="/playground_assets/5stars-200h.png"
                   className="image06"
                 />
                 <h4 className="text27 healine">Five Star Reviews on Google!</h4>
@@ -197,7 +197,7 @@ const Home1 = () => {
                 <span className="text30">Ramses G.</span>
                 <img
                   alt="image"
-                  src="b8324887-abfb-4c68-bfd1-9009725db866"
+                  src="/playground_assets/5stars-200h.png"
                   className="image09"
                 />
                 <span className="text31">
@@ -221,16 +221,11 @@ const Home1 = () => {
                   src="/playground_assets/ryan_3-200h.png"
                   className="image10"
                 />
-                <img
-                  alt="image"
-                  src="/playground_assets/ryan_3-200h.png"
-                  className="image11"
-                />
                 <span className="text34">Julie R.</span>
                 <img
                   alt="image"
-                  src="b8324887-abfb-4c68-bfd1-9009725db866"
-                  className="image12"
+                  src="/playground_assets/5stars-200h.png"
+                  className="image11"
                 />
                 <span className="text35">
                   <span>
@@ -254,13 +249,13 @@ const Home1 = () => {
                     <img
                       alt="image"
                       src="af1947fa-2dae-44a1-ab41-202d74d8a378"
-                      className="image13"
+                      className="image12"
                     />
                     <span className="text37">Brandon Hoffman</span>
                     <img
                       alt="image"
-                      src="b8324887-abfb-4c68-bfd1-9009725db866"
-                      className="image14"
+                      src="/playground_assets/5stars-200h.png"
+                      className="image13"
                     />
                     <span className="text38">
                       <span>
@@ -280,13 +275,13 @@ const Home1 = () => {
                     <img
                       alt="image"
                       src="6f41be71-e51f-43a4-b406-9ea64db799a3"
-                      className="image15"
+                      className="image14"
                     />
                     <span className="text40">Tiffany Plagenza</span>
                     <img
                       alt="image"
-                      src="b8324887-abfb-4c68-bfd1-9009725db866"
-                      className="image16"
+                      src="/playground_assets/5stars-200h.png"
+                      className="image15"
                     />
                     <span className="text41">
                       <span>
@@ -332,9 +327,7 @@ const Home1 = () => {
             align-items: center;
             flex-direction: column;
             background-size: cover;
-            background-image: 67972868-c819-472e-852f-31533a6f16b4;
-            background-repeat: no-repeat;
-            background-position: center;
+            background-image: url('/playground_assets/junglebg-1500h.jpg');
           }
           .bg {
             flex: 0 0 auto;
@@ -706,6 +699,8 @@ const Home1 = () => {
             text-align: center;
             font-weight: 400;
             line-height: 2;
+            margin-left: var(--dl-space-space-unit);
+            margin-right: var(--dl-space-space-unit);
             margin-bottom: var(--dl-space-space-unit);
           }
           .image07 {
@@ -778,17 +773,12 @@ const Home1 = () => {
             height: 50px;
             object-fit: cover;
           }
-          .image11 {
-            width: 50px;
-            height: 50px;
-            object-fit: cover;
-          }
           .text34 {
             color: #000000;
             text-align: center;
             font-weight: 700;
           }
-          .image12 {
+          .image11 {
             width: 100px;
             object-fit: cover;
           }
@@ -806,7 +796,7 @@ const Home1 = () => {
             justify-content: center;
             text-decoration: none;
           }
-          .image13 {
+          .image12 {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -816,7 +806,7 @@ const Home1 = () => {
             text-align: center;
             font-weight: 700;
           }
-          .image14 {
+          .image13 {
             width: 100px;
             object-fit: cover;
           }
@@ -834,7 +824,7 @@ const Home1 = () => {
             justify-content: center;
             text-decoration: none;
           }
-          .image15 {
+          .image14 {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -844,7 +834,7 @@ const Home1 = () => {
             text-align: center;
             font-weight: 700;
           }
-          .image16 {
+          .image15 {
             width: 100px;
             object-fit: cover;
           }

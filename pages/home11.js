@@ -465,7 +465,7 @@ const Home11 = () => {
             flex-direction: row;
             background-size: cover;
             justify-content: center;
-            background-image: 7a31be58-6eea-4b5a-8c3f-21c7f4a8174b;
+            background-image: url('https://play.teleporthq.io/static/svg/placeholders/no-image.svg');
           }
           .text11 {
             color: var(--dl-color-secondary-100);
