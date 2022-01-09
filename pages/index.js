@@ -64,7 +64,13 @@ const Home1 = () => {
             </div>
             <div className="cards-container">
               <div className="card1">
-                <div className="container05"></div>
+                <div className="container05">
+                  <img
+                    src="/playground_assets/search-1500h.png"
+                    alt="image"
+                    className="image02"
+                  />
+                </div>
                 <h6 className="text08 textXL">FOLLOW THE CLUES</h6>
                 <span className="text09">
                   There are clues hidden throughout the game room that help
@@ -143,7 +149,7 @@ const Home1 = () => {
                 <img
                   alt="image"
                   src="b8324887-abfb-4c68-bfd1-9009725db866"
-                  className="image02"
+                  className="image03"
                 />
                 <h4 className="text27 healine">Five Star Reviews on Google!</h4>
                 <span className="text28">
@@ -158,7 +164,7 @@ const Home1 = () => {
           <img
             alt="image"
             src="/playground_assets/white-vector.svg"
-            className="image03"
+            className="image04"
           />
         </div>
         <div className="section2">
@@ -168,13 +174,13 @@ const Home1 = () => {
                 <img
                   alt="image"
                   src="5a04a87c-e59a-451a-934b-a941f924cbf9"
-                  className="image04"
+                  className="image05"
                 />
                 <span className="text30">Ramses G.</span>
                 <img
                   alt="image"
                   src="b8324887-abfb-4c68-bfd1-9009725db866"
-                  className="image05"
+                  className="image06"
                 />
                 <span className="text31">
                   <span>
@@ -195,13 +201,13 @@ const Home1 = () => {
                 <img
                   alt="image"
                   src="c390f1a3-fef3-4665-81d7-4f204a18ffc5"
-                  className="image06"
+                  className="image07"
                 />
                 <span className="text34">Julie R.</span>
                 <img
                   alt="image"
                   src="b8324887-abfb-4c68-bfd1-9009725db866"
-                  className="image07"
+                  className="image08"
                 />
                 <span className="text35">
                   <span>
@@ -225,13 +231,13 @@ const Home1 = () => {
                     <img
                       alt="image"
                       src="af1947fa-2dae-44a1-ab41-202d74d8a378"
-                      className="image08"
+                      className="image09"
                     />
                     <span className="text37">Brandon Hoffman</span>
                     <img
                       alt="image"
                       src="b8324887-abfb-4c68-bfd1-9009725db866"
-                      className="image09"
+                      className="image10"
                     />
                     <span className="text38">
                       <span>
@@ -251,13 +257,13 @@ const Home1 = () => {
                     <img
                       alt="image"
                       src="6f41be71-e51f-43a4-b406-9ea64db799a3"
-                      className="image10"
+                      className="image11"
                     />
                     <span className="text40">Tiffany Plagenza</span>
                     <img
                       alt="image"
                       src="b8324887-abfb-4c68-bfd1-9009725db866"
-                      className="image11"
+                      className="image12"
                     />
                     <span className="text41">
                       <span>
@@ -290,8 +296,9 @@ const Home1 = () => {
             height: auto;
             display: flex;
             min-height: 100vh;
-            align-items: flex-start;
+            align-items: center;
             flex-direction: column;
+            justify-content: center;
           }
           .hero {
             flex: 0 0 auto;
@@ -303,6 +310,8 @@ const Home1 = () => {
             flex-direction: column;
             background-size: cover;
             background-image: 67972868-c819-472e-852f-31533a6f16b4;
+            background-repeat: no-repeat;
+            background-position: center;
           }
           .bg {
             flex: 0 0 auto;
@@ -439,9 +448,11 @@ const Home1 = () => {
             display: flex;
             align-items: center;
             flex-direction: column;
-            background-size: cover;
             justify-content: center;
-            background-image: 839c7850-1803-4d11-aafa-0851d1569039;
+          }
+          .image02 {
+            width: 3rem;
+            object-fit: cover;
           }
           .text08 {
             color: var(--dl-color-secondary-100);
@@ -648,7 +659,7 @@ const Home1 = () => {
             background-image: 711020c2-789d-4b0f-8013-7196c462f03b;
             background-position: center;
           }
-          .image02 {
+          .image03 {
             width: 200px;
             height: 50px;
             align-self: center;
@@ -669,7 +680,7 @@ const Home1 = () => {
             line-height: 2;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .image03 {
+          .image04 {
             top: auto;
             left: auto;
             right: 0px;
@@ -710,7 +721,7 @@ const Home1 = () => {
             flex-direction: column;
             justify-content: center;
           }
-          .image04 {
+          .image05 {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -720,7 +731,7 @@ const Home1 = () => {
             text-align: center;
             font-weight: 700;
           }
-          .image05 {
+          .image06 {
             width: 100px;
             object-fit: cover;
           }
@@ -734,7 +745,7 @@ const Home1 = () => {
             flex-direction: column;
             justify-content: center;
           }
-          .image06 {
+          .image07 {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -744,7 +755,7 @@ const Home1 = () => {
             text-align: center;
             font-weight: 700;
           }
-          .image07 {
+          .image08 {
             width: 100px;
             object-fit: cover;
           }
@@ -762,7 +773,7 @@ const Home1 = () => {
             justify-content: center;
             text-decoration: none;
           }
-          .image08 {
+          .image09 {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -772,7 +783,7 @@ const Home1 = () => {
             text-align: center;
             font-weight: 700;
           }
-          .image09 {
+          .image10 {
             width: 100px;
             object-fit: cover;
           }
@@ -790,7 +801,7 @@ const Home1 = () => {
             justify-content: center;
             text-decoration: none;
           }
-          .image10 {
+          .image11 {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -800,7 +811,7 @@ const Home1 = () => {
             text-align: center;
             font-weight: 700;
           }
-          .image11 {
+          .image12 {
             width: 100px;
             object-fit: cover;
           }

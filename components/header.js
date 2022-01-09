@@ -258,7 +258,7 @@ const Header = (props) => {
             top: 0px;
             left: 0px;
             position: absolute;
-            background-color: transparent;
+            background-color: #ffffff;
           }
           .rootClassName2 {
             top: 0px;

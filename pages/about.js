@@ -171,7 +171,7 @@ const About = () => {
             text-align: center;
           }
           .text01 {
-            color: #000000;
+            color: var(--dl-color-pimary-900);
             text-align: center;
             margin-bottom: 0.25rem;
           }
@@ -179,7 +179,6 @@ const About = () => {
             display: inline;
             font-weight: 400;
             white-space: normal;
-            background-color: rgb(241, 245, 249);
           }
           .cards-container {
             display: flex;
