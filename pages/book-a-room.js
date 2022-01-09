@@ -6,57 +6,24 @@ import Header from '../components/header'
 import AppComponent from '../components/component'
 import Footer from '../components/footer'
 
-const Home1 = () => {
+const BookARoom = () => {
   return (
     <>
       <div className="container">
         <Head>
-          <title>EscapeHilonew</title>
-          <meta property="og:title" content="EscapeHilonew" />
+          <title>Book A Room - EscapeHilonew</title>
+          <meta property="og:title" content="Book A Room - EscapeHilonew" />
         </Head>
-        <div className="hero">
-          <div className="bg"></div>
-          <Header rootClassName="rootClassName3"></Header>
+        <Header rootClassName="rootClassName2"></Header>
+        <div className="section1">
           <div className="container01">
             <div className="container02">
-              <h1 className="text">
-                Jungle Mystery
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </h1>
-              <span className="text01">
-                <span>
-                  Jungle Mystery! You&apos;re in a jungle decorated room. You
-                  have 60 minutes to solve the puzzles and find the clues so you
-                  can escape.
-                </span>
-              </span>
-            </div>
-            <AppComponent></AppComponent>
-            <img
-              alt="image"
-              src="/playground_assets/gray-vector.svg"
-              className="image"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/white-vector.svg"
-              className="image01"
-            />
-          </div>
-        </div>
-        <div className="section1">
-          <div className="container03">
-            <div className="container04">
-              <h6 className="text03">
+              <h6 className="text">
                 <span>Escape hilo presents...</span>
               </h6>
-              <h3 className="text05 healine">YOUR MISSION: Jungle Mystery</h3>
-              <span className="text06 textXL">
-                <span className="text07">
+              <h3 className="text02 healine">YOUR MISSION: Jungle Mystery</h3>
+              <span className="text03 textXL">
+                <span className="text04">
                   Your group has 1 hour to escape from Hawaiiâs jungle themed
                   Escape Room!
                 </span>
@@ -64,25 +31,25 @@ const Home1 = () => {
             </div>
             <div className="cards-container">
               <div className="card1">
-                <div className="container05"></div>
-                <h6 className="text08 textXL">FOLLOW THE CLUES</h6>
-                <span className="text09">
+                <div className="container03"></div>
+                <h6 className="text05 textXL">FOLLOW THE CLUES</h6>
+                <span className="text06">
                   There are clues hidden throughout the game room that help
                   guide your next decision
                 </span>
               </div>
               <div className="card2">
-                <div className="container06"></div>
-                <h6 className="text10 textXL">FIND THE KEYS</h6>
-                <span className="text11">
+                <div className="container04"></div>
+                <h6 className="text07 textXL">FIND THE KEYS</h6>
+                <span className="text08">
                   Keys are used to progress to the next puzzle, can you find
                   them all before time runs out?
                 </span>
               </div>
               <div className="card3">
-                <div className="container07"></div>
-                <h6 className="text12 textXL">SOLVE THE MYSTERY</h6>
-                <span className="text13">
+                <div className="container05"></div>
+                <h6 className="text09 textXL">SOLVE THE MYSTERY</h6>
+                <span className="text10">
                   Write a few lines about each one. A paragraph describing a
                   feature will be enough. Keep you user engaged!
                 </span>
@@ -90,9 +57,9 @@ const Home1 = () => {
             </div>
             <div className="cards-container1">
               <div className="card21">
-                <div className="container08"></div>
-                <h6 className="text14 textXL">60 MINUTE TIME LIMIT</h6>
-                <span className="text15">
+                <div className="container06"></div>
+                <h6 className="text11 textXL">60 MINUTE TIME LIMIT</h6>
+                <span className="text12">
                   Can you and your group solve all the puzzles before time runs
                   out?
                 </span>
@@ -100,12 +67,12 @@ const Home1 = () => {
             </div>
             <AppComponent></AppComponent>
             <div className="work-with-us">
-              <div className="container09">
-                <h3 className="text16 healine">
+              <div className="container07">
+                <h3 className="text13 healine">
                   Not convinced? Hear from our previous winners!
                 </h3>
-                <span className="text17">
-                  <span className="text18">
+                <span className="text14">
+                  <span className="text15">
                     Awesome game, awesome time. This was my first time playing
                     and what I had envisioned it to be; it was exactly that. It
                     was exciting, challenging, and completely well thought out.
@@ -119,7 +86,7 @@ const Home1 = () => {
                   <br></br>
                   <span></span>
                   <br></br>
-                  <span className="text21">
+                  <span className="text18">
                     The experience was amazing. Unlike anything else in Hilo.
                     Definitely would recommend to any locals or anyone visiting
                     the island. - Elias
@@ -138,15 +105,15 @@ const Home1 = () => {
                   <br></br>
                 </span>
               </div>
-              <div className="container10">
-                <div className="container11"></div>
+              <div className="container08">
+                <div className="container09"></div>
                 <img
                   alt="image"
                   src="b8324887-abfb-4c68-bfd1-9009725db866"
-                  className="image02"
+                  className="image"
                 />
-                <h4 className="text27 healine">Five Star Reviews on Google!</h4>
-                <span className="text28">
+                <h4 className="text24 healine">Five Star Reviews on Google!</h4>
+                <span className="text25">
                   <span>
                     With over 100 reviews on Google Maps, Escape Hilo continues
                     to craft a unique novelty experience for everyone
@@ -158,25 +125,25 @@ const Home1 = () => {
           <img
             alt="image"
             src="/playground_assets/white-vector.svg"
-            className="image03"
+            className="image01"
           />
         </div>
         <div className="section2">
           <div className="team">
-            <div className="container12">
-              <div className="container13">
+            <div className="container10">
+              <div className="container11">
                 <img
                   alt="image"
                   src="5a04a87c-e59a-451a-934b-a941f924cbf9"
-                  className="image04"
+                  className="image02"
                 />
-                <span className="text30">Ramses G.</span>
+                <span className="text27">Ramses G.</span>
                 <img
                   alt="image"
                   src="b8324887-abfb-4c68-bfd1-9009725db866"
-                  className="image05"
+                  className="image03"
                 />
-                <span className="text31">
+                <span className="text28">
                   <span>
                     Escape Hilo provided my sister and I a great experience! Did
                     we escape? No. However, we both had a blast running around,
@@ -191,19 +158,19 @@ const Home1 = () => {
                   <span>Good luck!</span>
                 </span>
               </div>
-              <div className="container14">
+              <div className="container12">
                 <img
                   alt="image"
                   src="c390f1a3-fef3-4665-81d7-4f204a18ffc5"
-                  className="image06"
+                  className="image04"
                 />
-                <span className="text34">Julie R.</span>
+                <span className="text31">Julie R.</span>
                 <img
                   alt="image"
                   src="b8324887-abfb-4c68-bfd1-9009725db866"
-                  className="image07"
+                  className="image05"
                 />
-                <span className="text35">
+                <span className="text32">
                   <span>
                     {' '}
                     Our family had an absolute blast!! The escape room was super
@@ -221,19 +188,19 @@ const Home1 = () => {
               </div>
               <Link href="/profile">
                 <a className="link">
-                  <div className="container15">
+                  <div className="container13">
                     <img
                       alt="image"
                       src="af1947fa-2dae-44a1-ab41-202d74d8a378"
-                      className="image08"
+                      className="image06"
                     />
-                    <span className="text37">Brandon Hoffman</span>
+                    <span className="text34">Brandon Hoffman</span>
                     <img
                       alt="image"
                       src="b8324887-abfb-4c68-bfd1-9009725db866"
-                      className="image09"
+                      className="image07"
                     />
-                    <span className="text38">
+                    <span className="text35">
                       <span>
                         What a cool place. Every escape room has its own
                         uniqueness. This one did not disappoint. The game master
@@ -247,19 +214,19 @@ const Home1 = () => {
               </Link>
               <Link href="/profile">
                 <a className="link1">
-                  <div className="container16">
+                  <div className="container14">
                     <img
                       alt="image"
                       src="6f41be71-e51f-43a4-b406-9ea64db799a3"
-                      className="image10"
+                      className="image08"
                     />
-                    <span className="text40">Tiffany Plagenza</span>
+                    <span className="text37">Tiffany Plagenza</span>
                     <img
                       alt="image"
                       src="b8324887-abfb-4c68-bfd1-9009725db866"
-                      className="image11"
+                      className="image09"
                     />
-                    <span className="text41">
+                    <span className="text38">
                       <span>
                         We escaped! This was the most fun we have had with a
                         great challenge. We came to Hilo, Hawaii just to visit
@@ -293,75 +260,6 @@ const Home1 = () => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .hero {
-            flex: 0 0 auto;
-            width: 100%;
-            height: 80vh;
-            display: flex;
-            position: relative;
-            align-items: center;
-            flex-direction: column;
-            background-size: cover;
-            background-image: 67972868-c819-472e-852f-31533a6f16b4;
-          }
-          .bg {
-            flex: 0 0 auto;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            opacity: 0.7;
-            position: absolute;
-            align-items: flex-start;
-            flex-direction: column;
-            background-color: var(--dl-color-gray-black);
-          }
-          .container01 {
-            top: auto;
-            left: auto;
-            right: 0px;
-            width: 100%;
-            bottom: 0px;
-            height: 100%;
-            display: flex;
-            position: absolute;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .container02 {
-            display: flex;
-            align-items: center;
-            padding-left: var(--dl-space-space-tripleunit);
-            padding-right: var(--dl-space-space-tripleunit);
-            flex-direction: column;
-            justify-content: center;
-          }
-          .text {
-            color: var(--dl-color-gray-white);
-            text-align: center;
-          }
-          .text01 {
-            color: #ffffff;
-            max-width: 600px;
-            text-align: center;
-          }
-          .image {
-            top: auto;
-            left: auto;
-            right: 0px;
-            bottom: -1px;
-            position: absolute;
-            object-fit: cover;
-          }
-          .image01 {
-            left: auto;
-            right: 0px;
-            width: 100%;
-            bottom: 0px;
-            display: none;
-            position: absolute;
-            object-fit: cover;
-          }
           .section1 {
             flex: 0 0 auto;
             width: 100%;
@@ -375,14 +273,15 @@ const Home1 = () => {
             padding-bottom: var(--dl-space-space-fiveunits);
             background-color: var(--dl-color-pimary-900);
           }
-          .container03 {
+          .container01 {
             width: 100%;
             display: flex;
             max-width: 1320px;
+            margin-top: var(--dl-space-space-tripleunit);
             align-items: center;
             flex-direction: column;
           }
-          .container04 {
+          .container02 {
             width: 66%;
             display: flex;
             align-items: center;
@@ -390,23 +289,23 @@ const Home1 = () => {
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .text03 {
+          .text {
             color: #39b300;
             font-size: 0.875em;
             font-style: normal;
             font-weight: 700;
             text-transform: uppercase;
           }
-          .text05 {
+          .text02 {
             color: var(--dl-color-secondary-400);
             text-align: center;
           }
-          .text06 {
+          .text03 {
             color: #000000;
             text-align: center;
             margin-bottom: 0.25rem;
           }
-          .text07 {
+          .text04 {
             display: inline;
             font-weight: 400;
             white-space: normal;
@@ -432,7 +331,7 @@ const Home1 = () => {
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
           }
-          .container05 {
+          .container03 {
             flex: 0 0 auto;
             width: 3rem;
             height: 3rem;
@@ -443,14 +342,14 @@ const Home1 = () => {
             justify-content: center;
             background-image: 839c7850-1803-4d11-aafa-0851d1569039;
           }
-          .text08 {
+          .text05 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text09 {
+          .text06 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -470,7 +369,7 @@ const Home1 = () => {
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
           }
-          .container06 {
+          .container04 {
             flex: 0 0 auto;
             width: 3rem;
             height: 3rem;
@@ -481,14 +380,14 @@ const Home1 = () => {
             justify-content: center;
             background-image: 9e88a36a-886d-4cf9-af7a-1e47e43f0e26;
           }
-          .text10 {
+          .text07 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text11 {
+          .text08 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -508,7 +407,7 @@ const Home1 = () => {
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
           }
-          .container07 {
+          .container05 {
             flex: 0 0 auto;
             width: 3rem;
             height: 3rem;
@@ -519,14 +418,14 @@ const Home1 = () => {
             justify-content: center;
             background-image: 4365cd10-0ace-4a5f-aa30-5d5fa232edf8;
           }
-          .text12 {
+          .text09 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text13 {
+          .text10 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -555,7 +454,7 @@ const Home1 = () => {
             flex-direction: column;
             background-color: var(--dl-color-gray-white);
           }
-          .container08 {
+          .container06 {
             flex: 0 0 auto;
             width: 86px;
             height: 87px;
@@ -567,14 +466,14 @@ const Home1 = () => {
             justify-content: center;
             background-image: 7a31be58-6eea-4b5a-8c3f-21c7f4a8174b;
           }
-          .text14 {
+          .text11 {
             color: var(--dl-color-secondary-100);
             margin-top: var(--dl-space-space-unit);
             text-align: center;
             font-family: Open Sans;
             font-weight: 700;
           }
-          .text15 {
+          .text12 {
             color: #000000;
             font-size: 1rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -589,7 +488,7 @@ const Home1 = () => {
             margin-bottom: var(--dl-space-space-tripleunit);
             flex-direction: row;
           }
-          .container09 {
+          .container07 {
             flex: 0 0 auto;
             width: 41%;
             display: flex;
@@ -600,27 +499,27 @@ const Home1 = () => {
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .text16 {
+          .text13 {
             color: var(--dl-color-secondary-400);
             font-weight: 600;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .text17 {
+          .text14 {
             color: #000000;
             margin-top: var(--dl-space-space-unit);
             margin-bottom: var(--dl-space-space-unit);
+          }
+          .text15 {
+            font-weight: 300;
+            white-space: normal;
+            background-color: rgb(241, 245, 249);
           }
           .text18 {
             font-weight: 300;
             white-space: normal;
             background-color: rgb(241, 245, 249);
           }
-          .text21 {
-            font-weight: 300;
-            white-space: normal;
-            background-color: rgb(241, 245, 249);
-          }
-          .container10 {
+          .container08 {
             flex: 0 0 auto;
             width: 33%;
             height: 100%;
@@ -635,7 +534,7 @@ const Home1 = () => {
             flex-direction: column;
             background-color: #09A6E9;
           }
-          .container11 {
+          .container09 {
             width: 100%;
             border: 2px dashed rgba(120, 120, 120, 0.4);
             height: 243px;
@@ -648,19 +547,19 @@ const Home1 = () => {
             background-image: 711020c2-789d-4b0f-8013-7196c462f03b;
             background-position: center;
           }
-          .image02 {
+          .image {
             width: 200px;
             height: 50px;
             align-self: center;
             object-fit: cover;
           }
-          .text27 {
+          .text24 {
             color: #ffffff;
             width: 372px;
             font-size: 1.25rem;
             text-align: center;
           }
-          .text28 {
+          .text25 {
             color: #f2f5f9ff;
             font-style: normal;
             margin-top: var(--dl-space-space-unit);
@@ -669,7 +568,7 @@ const Home1 = () => {
             line-height: 2;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .image03 {
+          .image01 {
             top: auto;
             left: auto;
             right: 0px;
@@ -696,7 +595,7 @@ const Home1 = () => {
             flex-direction: row;
             justify-content: center;
           }
-          .container12 {
+          .container10 {
             display: flex;
             max-width: 1320px;
             align-items: flex-start;
@@ -704,7 +603,31 @@ const Home1 = () => {
             padding-right: var(--dl-space-space-doubleunit);
             flex-direction: row;
           }
-          .container13 {
+          .container11 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .image02 {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+          }
+          .text27 {
+            color: #000000;
+            text-align: center;
+            font-weight: 700;
+          }
+          .image03 {
+            width: 100px;
+            object-fit: cover;
+          }
+          .text28 {
+            color: #000000;
+            text-align: center;
+          }
+          .container12 {
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -715,7 +638,7 @@ const Home1 = () => {
             height: 50px;
             object-fit: cover;
           }
-          .text30 {
+          .text31 {
             color: #000000;
             text-align: center;
             font-weight: 700;
@@ -724,15 +647,19 @@ const Home1 = () => {
             width: 100px;
             object-fit: cover;
           }
-          .text31 {
+          .text32 {
             color: #000000;
             text-align: center;
           }
-          .container14 {
+          .link {
+            display: contents;
+          }
+          .container13 {
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
+            text-decoration: none;
           }
           .image06 {
             width: 50px;
@@ -752,10 +679,10 @@ const Home1 = () => {
             color: #000000;
             text-align: center;
           }
-          .link {
+          .link1 {
             display: contents;
           }
-          .container15 {
+          .container14 {
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -777,34 +704,6 @@ const Home1 = () => {
             object-fit: cover;
           }
           .text38 {
-            color: #000000;
-            text-align: center;
-          }
-          .link1 {
-            display: contents;
-          }
-          .container16 {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-            text-decoration: none;
-          }
-          .image10 {
-            width: 50px;
-            height: 50px;
-            object-fit: cover;
-          }
-          .text40 {
-            color: #000000;
-            text-align: center;
-            font-weight: 700;
-          }
-          .image11 {
-            width: 100px;
-            object-fit: cover;
-          }
-          .text41 {
             color: #000000;
             text-align: center;
           }
@@ -853,16 +752,16 @@ const Home1 = () => {
               width: 90%;
               margin-bottom: var(--dl-space-space-fiveunits);
             }
-            .container10 {
+            .container08 {
               width: 20rem;
               height: auto;
             }
-            .text27 {
+            .text24 {
               width: 100%;
               height: 62px;
               text-align: center;
             }
-            .text28 {
+            .text25 {
               width: auto;
               align-self: center;
               text-align: center;
@@ -877,22 +776,22 @@ const Home1 = () => {
             .team {
               position: relative;
             }
-            .container12 {
+            .container10 {
               width: auto;
               max-width: auto;
               padding-left: 0px;
               padding-right: 0px;
             }
-            .container13 {
+            .container11 {
               width: auto;
             }
+            .container12 {
+              margin-right: var(--dl-space-space-unit);
+            }
+            .container13 {
+              margin-right: var(--dl-space-space-unit);
+            }
             .container14 {
-              margin-right: var(--dl-space-space-unit);
-            }
-            .container15 {
-              margin-right: var(--dl-space-space-unit);
-            }
-            .container16 {
               margin: var(--dl-space-space-halfunit);
             }
           }
@@ -901,31 +800,39 @@ const Home1 = () => {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .container04 {
+            .container02 {
               width: 100%;
             }
             .work-with-us {
               margin-top: var(--dl-space-space-tripleunit);
               flex-direction: column;
             }
-            .container09 {
+            .container07 {
               width: 100%;
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .container10 {
+            .container08 {
               width: 100%;
             }
-            .container11 {
+            .container09 {
               height: 30rem;
             }
-            .text28 {
+            .text25 {
               margin-top: var(--dl-space-space-halfunit);
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .container12 {
+            .container10 {
               flex-wrap: wrap;
               flex-direction: row;
               justify-content: center;
+            }
+            .container11 {
+              width: 50%;
+              margin-bottom: var(--dl-space-space-tripleunit);
+            }
+            .container12 {
+              width: 50%;
+              margin-bottom: var(--dl-space-space-tripleunit);
             }
             .container13 {
               width: 50%;
@@ -935,46 +842,34 @@ const Home1 = () => {
               width: 50%;
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .container15 {
-              width: 50%;
-              margin-bottom: var(--dl-space-space-tripleunit);
-            }
-            .container16 {
-              width: 50%;
-              margin-bottom: var(--dl-space-space-tripleunit);
-            }
           }
           @media (max-width: 479px) {
-            .container02 {
-              padding-left: var(--dl-space-space-doubleunit);
-              padding-right: var(--dl-space-space-doubleunit);
-            }
             .card1 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .text09 {
+            .text06 {
               text-align: left;
             }
             .card2 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .text11 {
+            .text08 {
               text-align: left;
             }
-            .text13 {
+            .text10 {
               text-align: left;
             }
             .card21 {
               margin-bottom: var(--dl-space-space-tripleunit);
             }
-            .text15 {
+            .text12 {
               text-align: left;
             }
-            .container12 {
+            .container10 {
               align-items: center;
               flex-direction: column;
             }
-            .container15 {
+            .container13 {
               width: auto;
             }
           }
@@ -984,4 +879,4 @@ const Home1 = () => {
   )
 }
 
-export default Home1
+export default BookARoom
