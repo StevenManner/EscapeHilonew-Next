@@ -339,7 +339,6 @@ const Home1 = () => {
             align-items: center;
             flex-direction: column;
             background-size: cover;
-            justify-content: center;
             background-image: url('/playground_assets/junglebg-1500h.jpg');
           }
           .bg {
@@ -406,14 +405,16 @@ const Home1 = () => {
             position: relative;
             align-items: center;
             padding-top: var(--dl-space-space-tripleunit);
+            padding-left: var(--dl-space-space-doubleunit);
+            padding-right: var(--dl-space-space-doubleunit);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
-            justify-content: center;
             background-color: var(--dl-color-pimary-900);
           }
           .container03 {
             width: 100%;
             display: flex;
+            max-width: 1320px;
             align-items: center;
             flex-direction: column;
           }
@@ -733,7 +734,6 @@ const Home1 = () => {
             padding-top: var(--dl-space-space-doubleunit);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-doubleunit);
-            justify-content: center;
           }
           .team {
             flex: 0 0 auto;
@@ -913,6 +913,7 @@ const Home1 = () => {
               margin-bottom: var(--dl-space-space-fiveunits);
             }
             .container10 {
+              width: 20rem;
               height: auto;
             }
             .text27 {
@@ -937,6 +938,7 @@ const Home1 = () => {
             }
             .container12 {
               width: 100%;
+              max-width: auto;
               padding-left: 0px;
               padding-right: 0px;
             }
@@ -957,6 +959,9 @@ const Home1 = () => {
             .section1 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
+            }
+            .container04 {
+              width: 100%;
             }
             .work-with-us {
               margin-top: var(--dl-space-space-tripleunit);
