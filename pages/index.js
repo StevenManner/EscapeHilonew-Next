@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import Head from 'next/head'
 
 import Header from '../components/header'
@@ -165,8 +164,8 @@ const Home1 = () => {
               <div className="container10">
                 <div className="container11">
                   <img
-                    src="/playground_assets/5-1500h.jpg"
                     alt="image"
+                    src="/playground_assets/5-1500h.jpg"
                     loading="lazy"
                     className="image06"
                   />
@@ -253,59 +252,50 @@ const Home1 = () => {
                   </span>
                 </span>
               </div>
-              <Link href="/profile">
-                <a className="link">
-                  <div className="container15">
-                    <img
-                      alt="image"
-                      src="/playground_assets/ryan_4-200h.png"
-                      loading="lazy"
-                      className="image13"
-                    />
-                    <span className="text37">Brandon Hoffman</span>
-                    <img
-                      alt="image"
-                      src="/playground_assets/5stars-200h.png"
-                      className="image14"
-                    />
-                    <span className="text38">
-                      <span>
-                        What a cool place. Every escape room has its own
-                        uniqueness. This one did not disappoint. The game master
-                        is really cool and exciting. The theme is great. Canât
-                        give away any details or it will ruin the fun.
-                        Definitely recommend.
-                      </span>
-                    </span>
-                  </div>
-                </a>
-              </Link>
-              <Link href="/profile">
-                <a className="link1">
-                  <div className="container16">
-                    <img
-                      alt="image"
-                      src="/playground_assets/ryan_5-200h.png"
-                      loading="lazy"
-                      className="image15"
-                    />
-                    <span className="text40">Tiffany Plagenza</span>
-                    <img
-                      alt="image"
-                      src="/playground_assets/5stars-200h.png"
-                      className="image16"
-                    />
-                    <span className="text41">
-                      <span>
-                        We escaped! This was the most fun we have had with a
-                        great challenge. We came to Hilo, Hawaii just to visit
-                        this escape room after attempting to escape the Samurai
-                        room 2 years ago. 5 star experience â­ï¸
-                      </span>
-                    </span>
-                  </div>
-                </a>
-              </Link>
+              <div className="container15">
+                <img
+                  alt="image"
+                  src="/playground_assets/ryan_4-200h.png"
+                  loading="lazy"
+                  className="image13"
+                />
+                <span className="text37">Brandon Hoffman</span>
+                <img
+                  alt="image"
+                  src="/playground_assets/5stars-200h.png"
+                  className="image14"
+                />
+                <span className="text38">
+                  <span>
+                    What a cool place. Every escape room has its own uniqueness.
+                    This one did not disappoint. The game master is really cool
+                    and exciting. The theme is great. Canât give away any
+                    details or it will ruin the fun. Definitely recommend.
+                  </span>
+                </span>
+              </div>
+              <div className="container16">
+                <img
+                  alt="image"
+                  src="/playground_assets/ryan_5-200h.png"
+                  loading="lazy"
+                  className="image15"
+                />
+                <span className="text40">Tiffany Plagenza</span>
+                <img
+                  alt="image"
+                  src="/playground_assets/5stars-200h.png"
+                  className="image16"
+                />
+                <span className="text41">
+                  <span>
+                    We escaped! This was the most fun we have had with a great
+                    challenge. We came to Hilo, Hawaii just to visit this escape
+                    room after attempting to escape the Samurai room 2 years
+                    ago. 5 star experience â­ï¸
+                  </span>
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -313,7 +303,7 @@ const Home1 = () => {
           href="https://fareharbor.com/embeds/book/escapehilo/items/58566/?full-items=yes&amp;u=84441f3f-1c27-44c8-9146-8ef90bd95998&amp;from-ssl=yes&amp;back=https://www.escapehilo.com/"
           target="_blank"
           rel="noreferrer noopener"
-          className="link2 button"
+          className="link button"
         >
           Book Your Jungle Mystery Today!
         </a>
@@ -325,6 +315,7 @@ const Home1 = () => {
             width: 100%;
             height: auto;
             display: flex;
+            flex-wrap: wrap;
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
@@ -744,11 +735,10 @@ const Home1 = () => {
             justify-content: center;
           }
           .container12 {
+            width: 100%;
             display: flex;
             max-width: 100%;
             align-items: flex-start;
-            padding-left: var(--dl-space-space-doubleunit);
-            padding-right: var(--dl-space-space-doubleunit);
             flex-direction: row;
           }
           .container13 {
@@ -805,9 +795,6 @@ const Home1 = () => {
             color: #000000;
             text-align: center;
           }
-          .link {
-            display: contents;
-          }
           .container15 {
             display: flex;
             align-items: center;
@@ -816,7 +803,6 @@ const Home1 = () => {
             border-width: 1px;
             flex-direction: column;
             justify-content: center;
-            text-decoration: none;
           }
           .image13 {
             width: 50px;
@@ -836,9 +822,6 @@ const Home1 = () => {
             color: #000000;
             text-align: center;
           }
-          .link1 {
-            display: contents;
-          }
           .container16 {
             display: flex;
             align-self: center;
@@ -848,7 +831,6 @@ const Home1 = () => {
             border-width: 1px;
             flex-direction: column;
             justify-content: center;
-            text-decoration: none;
           }
           .image15 {
             width: 50px;
@@ -868,7 +850,7 @@ const Home1 = () => {
             color: #000000;
             text-align: center;
           }
-          .link2 {
+          .link {
             color: #ffffff;
             width: 100%;
             align-self: center;
@@ -883,7 +865,7 @@ const Home1 = () => {
             text-decoration: none;
             background-color: #39b300;
           }
-          .link2:hover {
+          .link:hover {
             padding-top: var(--dl-space-space-doubleunit);
             padding-bottom: var(--dl-space-space-doubleunit);
           }
