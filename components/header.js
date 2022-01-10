@@ -26,13 +26,13 @@ const Header = (props) => {
             <h1 className="heading1 textSM">{props.heading12}</h1>
           </a>
         </Link>
+        <h1 className="heading2 textSM">{props.heading123}</h1>
+        <h1 className="heading3 textSM">{props.heading121}</h1>
         <Link href="/book-a-room">
           <a className="link2">
-            <h1 className="heading2 textSM">{props.heading124}</h1>
+            <h1 className="heading4 textSM">{props.heading124}</h1>
           </a>
         </Link>
-        <h1 className="heading3 textSM">{props.heading123}</h1>
-        <h1 className="heading4 textSM">{props.heading121}</h1>
         <div data-type="MobileMenu" className="mobile-menu">
           <div className="top">
             <Link href="/about">
@@ -125,21 +125,21 @@ const Header = (props) => {
             font-weight: 700;
             text-decoration: none;
           }
-          .link2 {
-            display: contents;
-          }
           .heading2 {
             color: #000000;
             font-weight: 700;
-            text-decoration: none;
           }
           .heading3 {
             color: #000000;
             font-weight: 700;
           }
+          .link2 {
+            display: contents;
+          }
           .heading4 {
             color: #000000;
             font-weight: 700;
+            text-decoration: none;
           }
           .mobile-menu {
             top: 0px;
@@ -361,9 +361,9 @@ const Header = (props) => {
 Header.defaultProps = {
   rootClassName: '',
   heading11: 'NOTUS PRO',
-  heading121: 'COVID-19',
-  heading124: 'BOOK A ROOM',
-  heading123: 'FAQS',
+  heading121: 'COVID',
+  heading124: 'BOOK NOW',
+  heading123: 'FAQ',
   heading12: 'ABOUT',
   heading13: 'HOME',
   heading1: 'ESCAPE HILO',

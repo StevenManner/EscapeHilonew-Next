@@ -357,6 +357,7 @@ const Home1 = () => {
           }
           .container02 {
             display: flex;
+            z-index: 100;
             align-items: center;
             padding-left: var(--dl-space-space-tripleunit);
             padding-right: var(--dl-space-space-tripleunit);
