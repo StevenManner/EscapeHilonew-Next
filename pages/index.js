@@ -940,6 +940,12 @@ const Home1 = () => {
             }
           }
           @media (max-width: 767px) {
+            .container02 {
+              z-index: 100;
+            }
+            .text {
+              color: #ffffff;
+            }
             .section1 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
