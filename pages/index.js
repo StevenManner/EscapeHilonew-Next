@@ -292,7 +292,7 @@ const Home1 = () => {
                     We escaped! This was the most fun we have had with a great
                     challenge. We came to Hilo, Hawaii just to visit this escape
                     room after attempting to escape the Samurai room 2 years
-                    ago. 5 star experience â­ï¸
+                    ago. 5 star experience.
                   </span>
                 </span>
               </div>

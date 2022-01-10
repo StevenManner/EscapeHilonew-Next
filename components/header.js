@@ -298,7 +298,6 @@ const Header = (props) => {
           }
           @media (max-width: 479px) {
             .header {
-              align-items: stretch;
               justify-content: space-between;
             }
             .image {
@@ -347,12 +346,12 @@ Header.defaultProps = {
   heading11: 'NOTUS PRO',
   heading121: 'COVID',
   heading124: 'BOOK NOW',
+  image_src: '/playground_assets/logo-200h.png',
   heading123: 'FAQ',
+  image_alt: 'image',
   heading12: 'ABOUT',
   heading13: 'HOME',
   heading1: 'ESCAPE HILO',
-  image_src: '/playground_assets/logo-200h.png',
-  image_alt: 'image',
 }
 
 Header.propTypes = {
@@ -360,12 +359,12 @@ Header.propTypes = {
   heading11: PropTypes.string,
   heading121: PropTypes.string,
   heading124: PropTypes.string,
+  image_src: PropTypes.string,
   heading123: PropTypes.string,
+  image_alt: PropTypes.string,
   heading12: PropTypes.string,
   heading13: PropTypes.string,
   heading1: PropTypes.string,
-  image_src: PropTypes.string,
-  image_alt: PropTypes.string,
 }
 
 export default Header
