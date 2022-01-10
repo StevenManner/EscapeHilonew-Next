@@ -124,7 +124,7 @@ const Footer = (props) => {
         </div>
         <span className="text28 textSM">
           <span>
-            Copyright Â© 2022 Hilo Experience LLC dba Escape Hilo |
+            Copyright 2022 Hilo Experience LLC dba Escape Hilo |
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',

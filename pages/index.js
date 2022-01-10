@@ -165,7 +165,7 @@ const Home1 = () => {
                 <div className="container11">
                   <img
                     alt="image"
-                    src="/playground_assets/5-1500h.jpg"
+                    src="/playground_assets/2-1500h.jpg"
                     loading="lazy"
                     className="image06"
                   />
@@ -643,6 +643,7 @@ const Home1 = () => {
           }
           .text17 {
             color: #000000;
+            font-style: italic;
             margin-top: var(--dl-space-space-unit);
             margin-bottom: var(--dl-space-space-unit);
           }
