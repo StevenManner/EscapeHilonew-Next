@@ -351,7 +351,6 @@ const Home1 = () => {
             height: 100%;
             margin: auto;
             display: flex;
-            position: absolute;
             align-items: center;
             flex-direction: column;
             justify-content: center;
