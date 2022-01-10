@@ -123,8 +123,21 @@ const Footer = (props) => {
           </div>
         </div>
         <span className="text28 textSM">
-          Copyright Â© 2022 Hilo Experience LLC dba Escape Hilo | Design by
-          Manner Media LLC
+          <span>
+            Copyright Â© 2022 Hilo Experience LLC dba Escape Hilo |
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <a
+            href="https://MannerMedia.biz"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <span className="text30">Design by Manner Media LLC</span>
+          </a>
         </span>
       </div>
       <style jsx>
@@ -310,7 +323,7 @@ const Footer = (props) => {
           .text06 {
             color: #000000;
             font-style: normal;
-            text-align: left;
+            text-align: center;
           }
           .text07 {
             font-style: normal;
@@ -333,19 +346,23 @@ const Footer = (props) => {
           }
           .text24 {
             color: var(--dl-color-secondary-400);
+            text-align: center;
             font-weight: 600;
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .text25 {
             color: var(--dl-color-secondary-500);
+            text-align: center;
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .text26 {
             color: var(--dl-color-secondary-500);
+            text-align: center;
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .text27 {
             color: var(--dl-color-secondary-500);
+            text-align: center;
           }
           .container15 {
             flex: 0 0 auto;
@@ -376,6 +393,9 @@ const Footer = (props) => {
             color: #000000;
             align-self: center;
             padding-top: var(--dl-space-space-twoandhalf);
+          }
+          .text30 {
+            text-decoration: underline;
           }
           @media (max-width: 991px) {
             .text {
