@@ -108,13 +108,13 @@ const Footer = (props) => {
               <span></span>
             </span>
           </div>
-          <div className="container13">
-            <div className="container14">
-              <span className="text24 textXS">OTHER RESOURCES</span>
-              <span className="text25 textSM">Terms &amp; Conditions</span>
-              <span className="text26 textSM">Privacy Policy</span>
-              <span className="text27 textSM">Contact Us</span>
-            </div>
+        </div>
+        <div className="container13">
+          <div className="container14">
+            <span className="text24 textXS">OTHER RESOURCES</span>
+            <span className="text25 textSM">Terms &amp; Conditions</span>
+            <span className="text26 textSM">Privacy Policy</span>
+            <span className="text27 textSM">Contact Us</span>
           </div>
         </div>
         <div className="container15">
@@ -438,6 +438,22 @@ const Footer = (props) => {
             }
             .text06 {
               width: auto;
+              text-align: center;
+            }
+            .container13 {
+              align-items: center;
+              justify-content: center;
+            }
+            .text24 {
+              text-align: center;
+            }
+            .text25 {
+              text-align: center;
+            }
+            .text26 {
+              text-align: center;
+            }
+            .text27 {
               text-align: center;
             }
             .text28 {
