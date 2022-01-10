@@ -315,6 +315,7 @@ const Home1 = () => {
             width: 100%;
             height: auto;
             display: flex;
+            position: inherit;
             flex-wrap: wrap;
             min-height: 100vh;
             align-items: center;
@@ -681,6 +682,7 @@ const Home1 = () => {
           }
           .image06 {
             width: 100%;
+            height: 100%;
             object-fit: cover;
             padding-bottom: var(--dl-space-space-unit);
           }
@@ -942,6 +944,9 @@ const Home1 = () => {
             .section1 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
+            }
+            .container03 {
+              max-width: 100%;
             }
             .container04 {
               width: 100%;
