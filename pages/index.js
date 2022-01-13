@@ -63,11 +63,9 @@ const Home = () => {
             <div className="cards-container">
               <div className="card1">
                 <div className="container05">
-                  <img
-                    alt="image"
-                    src="/playground_assets/search-1500h.png"
-                    className="image02"
-                  />
+                  <svg viewBox="0 0 1024 1024" className="icon">
+                    <path d="M992.262 871.396l-242.552-206.294c-25.074-22.566-51.89-32.926-73.552-31.926 57.256-67.068 91.842-154.078 91.842-249.176 0-212.078-171.922-384-384-384-212.076 0-384 171.922-384 384s171.922 384 384 384c95.098 0 182.108-34.586 249.176-91.844-1 21.662 9.36 48.478 31.926 73.552l206.294 242.552c35.322 39.246 93.022 42.554 128.22 7.356s31.892-92.898-7.354-128.22zM384 640c-141.384 0-256-114.616-256-256s114.616-256 256-256 256 114.616 256 256-114.614 256-256 256z"></path>
+                  </svg>
                 </div>
                 <h6 className="text08 textXL">FOLLOW THE CLUES</h6>
                 <span className="text09">
@@ -77,11 +75,9 @@ const Home = () => {
               </div>
               <div className="card2">
                 <div className="container06">
-                  <img
-                    alt="image"
-                    src="/playground_assets/key-1500h.png"
-                    className="image03"
-                  />
+                  <svg viewBox="0 0 1024 1024" className="icon2">
+                    <path d="M704 0c-176.73 0-320 143.268-320 320 0 20.026 1.858 39.616 5.376 58.624l-389.376 389.376v192c0 35.346 28.654 64 64 64h64v-64h128v-128h128v-128h128l83.042-83.042c34.010 12.316 70.696 19.042 108.958 19.042 176.73 0 320-143.268 320-320s-143.27-320-320-320zM799.874 320.126c-53.020 0-96-42.98-96-96s42.98-96 96-96 96 42.98 96 96-42.98 96-96 96z"></path>
+                  </svg>
                 </div>
                 <h6 className="text10 textXL">FIND THE KEYS</h6>
                 <span className="text11">
@@ -91,11 +87,9 @@ const Home = () => {
               </div>
               <div className="card3">
                 <div className="container07">
-                  <img
-                    alt="image"
-                    src="/playground_assets/check-1500h.png"
-                    className="image04"
-                  />
+                  <svg viewBox="0 0 1024 1024" className="icon4">
+                    <path d="M426 726l384-384-60-62-324 324-152-152-60 60zM810 128q36 0 61 25t25 61v596q0 36-25 61t-61 25h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h596z"></path>
+                  </svg>
                 </div>
                 <h6 className="text12 textXL">SOLVE THE MYSTERY</h6>
                 <span className="text13">
@@ -107,11 +101,9 @@ const Home = () => {
             <div className="cards-container1">
               <div className="card21">
                 <div className="container08">
-                  <img
-                    alt="image"
-                    src="/playground_assets/hourglass-1500w.png"
-                    className="image05"
-                  />
+                  <svg viewBox="0 0 877.7142857142857 1024" className="icon6">
+                    <path d="M804.571 73.143c0 211.429-101.143 364.571-213.143 438.857 112 74.286 213.143 227.429 213.143 438.857h54.857c10.286 0 18.286 8 18.286 18.286v36.571c0 10.286-8 18.286-18.286 18.286h-841.143c-10.286 0-18.286-8-18.286-18.286v-36.571c0-10.286 8-18.286 18.286-18.286h54.857c0-211.429 101.143-364.571 213.143-438.857-112-74.286-213.143-227.429-213.143-438.857h-54.857c-10.286 0-18.286-8-18.286-18.286v-36.571c0-10.286 8-18.286 18.286-18.286h841.143c10.286 0 18.286 8 18.286 18.286v36.571c0 10.286-8 18.286-18.286 18.286h-54.857zM499.429 477.714c115.429-43.429 232-196 232-404.571h-585.143c0 208.571 116.571 361.143 232 404.571 14.286 5.143 24 18.857 24 34.286s-9.714 29.143-24 34.286c-49.143 18.286-98.857 57.143-139.429 112h400c-40.571-54.857-90.286-93.714-139.429-112-14.286-5.143-24-18.857-24-34.286s9.714-29.143 24-34.286z"></path>
+                  </svg>
                 </div>
                 <h6 className="text14 textXL">60 MINUTE TIME LIMIT</h6>
                 <span className="text15">
@@ -166,14 +158,14 @@ const Home = () => {
                     alt="image"
                     src="/playground_assets/2-1500h.jpg"
                     loading="lazy"
-                    className="image06"
+                    className="image02"
                   />
                 </div>
                 <img
                   alt="stars"
                   src="/playground_assets/5stars-200h.png"
                   loading="lazy"
-                  className="image07"
+                  className="image03"
                 />
                 <h4 className="text27 healine">Five Star Reviews on Google!</h4>
                 <span className="text28">
@@ -188,7 +180,7 @@ const Home = () => {
           <img
             alt="image"
             src="/playground_assets/white-vector.svg"
-            className="image08"
+            className="image04"
           />
         </div>
         <div className="section2">
@@ -199,13 +191,13 @@ const Home = () => {
                   alt="image"
                   src="/playground_assets/ryan_2-200h.png"
                   loading="lazy"
-                  className="image09"
+                  className="image05"
                 />
                 <span className="text30">Ramses G.</span>
                 <img
                   alt="image"
                   src="/playground_assets/5stars-200h.png"
-                  className="image10"
+                  className="image06"
                 />
                 <span className="text31">
                   <span>
@@ -227,13 +219,13 @@ const Home = () => {
                   alt="image"
                   src="/playground_assets/ryan_3-200h.png"
                   loading="lazy"
-                  className="image11"
+                  className="image07"
                 />
                 <span className="text34">Julie R.</span>
                 <img
                   alt="image"
                   src="/playground_assets/5stars-200h.png"
-                  className="image12"
+                  className="image08"
                 />
                 <span className="text35">
                   <span>
@@ -256,13 +248,13 @@ const Home = () => {
                   alt="image"
                   src="/playground_assets/ryan_4-200h.png"
                   loading="lazy"
-                  className="image13"
+                  className="image09"
                 />
                 <span className="text37">Brandon Hoffman</span>
                 <img
                   alt="image"
                   src="/playground_assets/5stars-200h.png"
-                  className="image14"
+                  className="image10"
                 />
                 <span className="text38">
                   <span>
@@ -278,13 +270,13 @@ const Home = () => {
                   alt="image"
                   src="/playground_assets/ryan_5-200h.png"
                   loading="lazy"
-                  className="image15"
+                  className="image11"
                 />
                 <span className="text40">Tiffany Plagenza</span>
                 <img
                   alt="image"
                   src="/playground_assets/5stars-200h.png"
-                  className="image16"
+                  className="image12"
                 />
                 <span className="text41">
                   <span>
@@ -461,16 +453,14 @@ const Home = () => {
           }
           .container05 {
             flex: 0 0 auto;
-            width: 3rem;
+            width: auto;
             height: 3rem;
             display: flex;
-            align-items: center;
-            flex-direction: column;
+            align-items: flex-start;
             justify-content: center;
           }
-          .image02 {
+          .icon {
             width: 3rem;
-            object-fit: cover;
           }
           .text08 {
             color: var(--dl-color-secondary-100);
@@ -508,9 +498,8 @@ const Home = () => {
             flex-direction: column;
             justify-content: center;
           }
-          .image03 {
+          .icon2 {
             width: 3rem;
-            object-fit: cover;
           }
           .text10 {
             color: var(--dl-color-secondary-100);
@@ -541,16 +530,14 @@ const Home = () => {
           }
           .container07 {
             flex: 0 0 auto;
-            width: 3rem;
+            width: auto;
             height: 3rem;
             display: flex;
-            align-items: center;
-            flex-direction: column;
+            align-items: flex-start;
             justify-content: center;
           }
-          .image04 {
+          .icon4 {
             width: 3rem;
-            object-fit: cover;
           }
           .text12 {
             color: var(--dl-color-secondary-100);
@@ -598,9 +585,8 @@ const Home = () => {
             flex-direction: row;
             justify-content: center;
           }
-          .image05 {
+          .icon6 {
             width: 3rem;
-            object-fit: cover;
           }
           .text14 {
             color: var(--dl-color-secondary-100);
@@ -680,13 +666,13 @@ const Home = () => {
             flex-direction: row;
             justify-content: center;
           }
-          .image06 {
+          .image02 {
             width: 100%;
             height: 100%;
             object-fit: cover;
             padding-bottom: var(--dl-space-space-unit);
           }
-          .image07 {
+          .image03 {
             width: 200px;
             height: 50px;
             align-self: center;
@@ -709,7 +695,7 @@ const Home = () => {
             margin-right: var(--dl-space-space-unit);
             margin-bottom: var(--dl-space-space-unit);
           }
-          .image08 {
+          .image04 {
             top: auto;
             left: auto;
             right: 0px;
@@ -752,7 +738,7 @@ const Home = () => {
             flex-direction: column;
             justify-content: center;
           }
-          .image09 {
+          .image05 {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -762,7 +748,7 @@ const Home = () => {
             text-align: center;
             font-weight: 700;
           }
-          .image10 {
+          .image06 {
             width: 100px;
             object-fit: cover;
           }
@@ -779,7 +765,7 @@ const Home = () => {
             flex-direction: column;
             justify-content: center;
           }
-          .image11 {
+          .image07 {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -789,7 +775,7 @@ const Home = () => {
             text-align: center;
             font-weight: 700;
           }
-          .image12 {
+          .image08 {
             width: 100px;
             object-fit: cover;
           }
@@ -806,7 +792,7 @@ const Home = () => {
             flex-direction: column;
             justify-content: center;
           }
-          .image13 {
+          .image09 {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -816,7 +802,7 @@ const Home = () => {
             text-align: center;
             font-weight: 700;
           }
-          .image14 {
+          .image10 {
             width: 100px;
             object-fit: cover;
           }
@@ -826,7 +812,7 @@ const Home = () => {
           }
           .container16 {
             display: flex;
-            align-self: center;
+            align-self: flex-start;
             align-items: center;
             border-color: #000000;
             border-style: inset;
@@ -834,7 +820,7 @@ const Home = () => {
             flex-direction: column;
             justify-content: center;
           }
-          .image15 {
+          .image11 {
             width: 50px;
             height: 50px;
             object-fit: cover;
@@ -844,7 +830,7 @@ const Home = () => {
             text-align: center;
             font-weight: 700;
           }
-          .image16 {
+          .image12 {
             width: 100px;
             object-fit: cover;
           }

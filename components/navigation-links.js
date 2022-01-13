@@ -45,6 +45,10 @@ const NavigationLinks = (props) => {
             margin-left: 32px;
           }
 
+          .rootClassName8 {
+            margin-right: var(--dl-space-space-doubleunit);
+          }
+
           .rootClassName12 {
             margin-right: var(--dl-space-space-doubleunit);
           }
