@@ -28,8 +28,7 @@ const Profile = () => {
           <div className="container2">
             <div className="container3">
               <Counter></Counter>
-              <Counter type="Photos" number="10"></Counter>
-              <Counter type="Comments" number="89"></Counter>
+              <Counter type="Satisfied Escapee's" number="1000+"></Counter>
             </div>
             <img
               alt="image"
@@ -40,7 +39,17 @@ const Profile = () => {
               <div className="container5">
                 <PrimaryButton button="connect"></PrimaryButton>
               </div>
-              <SecondaryButton button="message"></SecondaryButton>
+              <a
+                href="https://www.facebook.com/EscapeHiloHawaii"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="link"
+              >
+                <SecondaryButton
+                  button="message"
+                  className="component4"
+                ></SecondaryButton>
+              </a>
             </div>
           </div>
           <div className="container6">
@@ -61,8 +70,14 @@ const Profile = () => {
             </div>
             <span className="text3">
               <span className="text4">
-                What&apos;s up guys! Escape Hilo is one of Hawaii&apos;s best
-                escape rooms,
+                Hey everyone my name is Ryan, I am the owner of Escape Hilo and
+                also your host! I&apos;ve been doing escape rooms for a little
+                over 6 years now and the proud owner of Hawaii Island&apos;s
+                first escape room company! I&apos;ve been in operation since
+                2017 and I truly want to deliver a great escape attempt for
+                first time players and expert players. Heck I&apos;d say if you
+                done over 50 escape rooms I DARE YOU to beat our record. DO IT,
+                YOU WON&apos;T!!!
               </span>
             </span>
           </div>
@@ -156,7 +171,7 @@ const Profile = () => {
             left: 0px;
             right: 0px;
             width: 150px;
-            bottom: auto;
+            bottom: var(--dl-space-space-fiveunits);
             height: 169px;
             margin: auto;
             position: absolute;
@@ -178,6 +193,12 @@ const Profile = () => {
             margin-right: var(--dl-space-space-unit);
             flex-direction: row;
             justify-content: center;
+          }
+          .link {
+            display: contents;
+          }
+          .component4 {
+            text-decoration: none;
           }
           .container6 {
             flex: 0 0 auto;

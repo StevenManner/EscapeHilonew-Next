@@ -5,13 +5,13 @@ import Header from '../components/header'
 import AppComponent from '../components/component'
 import Footer from '../components/footer'
 
-const Home1 = () => {
+const Home = () => {
   return (
     <>
       <div className="container">
         <Head>
-          <title>EscapeHilonew</title>
-          <meta property="og:title" content="EscapeHilonew" />
+          <title>Escape Hilo</title>
+          <meta property="og:title" content="Escape Hilo" />
         </Head>
         <div className="hero">
           <div className="bg"></div>
@@ -28,9 +28,8 @@ const Home1 = () => {
               </h1>
               <span className="text01">
                 <span>
-                  Jungle Mystery! You&apos;re in a jungle decorated room. You
-                  have 60 minutes to solve the puzzles and find the clues so you
-                  can escape.
+                  Recover a lost family heirloom before your time expires. You
+                  have 60 minutes to solve your way out
                 </span>
               </span>
             </div>
@@ -1047,4 +1046,4 @@ const Home1 = () => {
   )
 }
 
-export default Home1
+export default Home

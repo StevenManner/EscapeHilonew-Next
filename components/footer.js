@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 const Footer = (props) => {
   return (
     <>
-      <div className="container">
+      <div className={`container ${props.rootClassName} `}>
         <div className="container01">
           <div className="container02">
             <div className="container03">
@@ -397,6 +397,9 @@ const Footer = (props) => {
           .text30 {
             text-decoration: underline;
           }
+          .rootClassName {
+            height: 100%;
+          }
           @media (max-width: 991px) {
             .text {
               font-size: small;
@@ -499,6 +502,7 @@ Footer.defaultProps = {
   image_src21: 'd1a66251-1259-4713-8dca-e6d13de2b7ce',
   image_alt2: 'image',
   image_alt1: 'image',
+  rootClassName: '',
 }
 
 Footer.propTypes = {
@@ -510,6 +514,7 @@ Footer.propTypes = {
   image_src21: PropTypes.string,
   image_alt2: PropTypes.string,
   image_alt1: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default Footer

@@ -1,7 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 import PropTypes from 'prop-types'
+
+import NavigationLinks from './navigation-links'
 
 const Header = (props) => {
   return (
@@ -11,25 +14,11 @@ const Header = (props) => {
         data-role="Header"
         className={`header ${props.rootClassName} `}
       >
-        <img
-          src="/playground_assets/logo-200h.png"
-          loading="lazy"
-          className="image"
-        />
-        <Link href="/">
-          <a className="link">
-            <h1 className="heading textSM">{props.heading13}</h1>
-          </a>
-        </Link>
-        <h1 className="heading1 textSM">{props.heading12}</h1>
-        <h1 className="heading2 textSM">{props.heading123}</h1>
-        <h1 className="heading3 textSM">{props.heading121}</h1>
-        <h1 className="heading4 textSM">{props.heading124}</h1>
         <div data-type="MobileMenu" className="mobile-menu">
           <div className="top">
             <Link href="/about">
-              <a className="link1">
-                <h1 className="heading5 textSM">{props.heading11}</h1>
+              <a className="link">
+                <h1 className="heading textSM">{props.heading11}</h1>
               </a>
             </Link>
             <div data-type="CloseMobileMenu" className="close-menu">
@@ -40,7 +29,7 @@ const Header = (props) => {
           </div>
           <div className="mid">
             <Link href="/profile">
-              <a className="link2">
+              <a className="link1">
                 <div className="container">
                   <svg viewBox="0 0 1024 1024" className="icon02">
                     <path d="M576 706.612v-52.78c70.498-39.728 128-138.772 128-237.832 0-159.058 0-288-192-288s-192 128.942-192 288c0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h896c0-128.968-166.898-235.64-384-253.388z"></path>
@@ -49,19 +38,15 @@ const Header = (props) => {
                 </div>
               </a>
             </Link>
-            <Link href="/blog-post">
-              <a className="link3">
-                <div className="container1">
-                  <svg viewBox="0 0 1024 1024" className="icon04">
-                    <path d="M917.806 229.076c-22.212-30.292-53.174-65.7-87.178-99.704s-69.412-64.964-99.704-87.178c-51.574-37.82-76.592-42.194-90.924-42.194h-496c-44.112 0-80 35.888-80 80v864c0 44.112 35.888 80 80 80h736c44.112 0 80-35.888 80-80v-624c0-14.332-4.372-39.35-42.194-90.924zM785.374 174.626c30.7 30.7 54.8 58.398 72.58 81.374h-153.954v-153.946c22.984 17.78 50.678 41.878 81.374 72.572zM896 944c0 8.672-7.328 16-16 16h-736c-8.672 0-16-7.328-16-16v-864c0-8.672 7.328-16 16-16 0 0 495.956-0.002 496 0v224c0 17.672 14.326 32 32 32h224v624z"></path>
-                    <path d="M736 832h-448c-17.672 0-32-14.326-32-32s14.328-32 32-32h448c17.674 0 32 14.326 32 32s-14.326 32-32 32z"></path>
-                    <path d="M736 704h-448c-17.672 0-32-14.326-32-32s14.328-32 32-32h448c17.674 0 32 14.326 32 32s-14.326 32-32 32z"></path>
-                    <path d="M736 576h-448c-17.672 0-32-14.326-32-32s14.328-32 32-32h448c17.674 0 32 14.326 32 32s-14.326 32-32 32z"></path>
-                  </svg>
-                  <span className="text1 textSM">BLOG</span>
-                </div>
-              </a>
-            </Link>
+            <div className="container1">
+              <svg viewBox="0 0 1024 1024" className="icon04">
+                <path d="M917.806 229.076c-22.212-30.292-53.174-65.7-87.178-99.704s-69.412-64.964-99.704-87.178c-51.574-37.82-76.592-42.194-90.924-42.194h-496c-44.112 0-80 35.888-80 80v864c0 44.112 35.888 80 80 80h736c44.112 0 80-35.888 80-80v-624c0-14.332-4.372-39.35-42.194-90.924zM785.374 174.626c30.7 30.7 54.8 58.398 72.58 81.374h-153.954v-153.946c22.984 17.78 50.678 41.878 81.374 72.572zM896 944c0 8.672-7.328 16-16 16h-736c-8.672 0-16-7.328-16-16v-864c0-8.672 7.328-16 16-16 0 0 495.956-0.002 496 0v224c0 17.672 14.326 32 32 32h224v624z"></path>
+                <path d="M736 832h-448c-17.672 0-32-14.326-32-32s14.328-32 32-32h448c17.674 0 32 14.326 32 32s-14.326 32-32 32z"></path>
+                <path d="M736 704h-448c-17.672 0-32-14.326-32-32s14.328-32 32-32h448c17.674 0 32 14.326 32 32s-14.326 32-32 32z"></path>
+                <path d="M736 576h-448c-17.672 0-32-14.326-32-32s14.328-32 32-32h448c17.674 0 32 14.326 32 32s-14.326 32-32 32z"></path>
+              </svg>
+              <span className="text1 textSM">BLOG</span>
+            </div>
           </div>
           <div className="bot">
             <svg viewBox="0 0 877.7142857142857 1024" className="icon09">
@@ -75,6 +60,63 @@ const Header = (props) => {
             </svg>
           </div>
         </div>
+        <header data-role="Header" className="header1">
+          <div className="container2">
+            <Image
+              alt="logo"
+              src="/playground_assets/logo-200h.png"
+              className="image"
+              width={59}
+              height={50}
+            />
+            <div className="nav">
+              <NavigationLinks
+                rootClassName="rootClassName12"
+                text="Home"
+                text3="About"
+                text4="FAQ"
+              ></NavigationLinks>
+            </div>
+          </div>
+          <div className="btn-group">
+            <Link href="/book-a-room">
+              <a className="link2 button">Book Now!</a>
+            </Link>
+          </div>
+          <div data-type="BurgerMenu" className="burger-menu">
+            <svg viewBox="0 0 1024 1024" className="icon15">
+              <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
+            </svg>
+          </div>
+          <div data-type="MobileMenu" className="mobile-menu1">
+            <nav className="nav1">
+              <div className="container3">
+                <img
+                  alt="image"
+                  src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
+                  className="image1"
+                />
+                <div data-type="CloseMobileMenu" className="close-mobile-menu">
+                  <svg viewBox="0 0 1024 1024" className="icon17">
+                    <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                  </svg>
+                </div>
+              </div>
+              <NavigationLinks rootClassName="rootClassName14"></NavigationLinks>
+            </nav>
+            <div>
+              <svg viewBox="0 0 950.8571428571428 1024" className="icon19">
+                <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
+              </svg>
+              <svg viewBox="0 0 877.7142857142857 1024" className="icon21">
+                <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
+              </svg>
+              <svg viewBox="0 0 602.2582857142856 1024" className="icon23">
+                <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
+              </svg>
+            </div>
+          </div>
+        </header>
       </header>
       <style jsx>
         {`
@@ -86,44 +128,15 @@ const Header = (props) => {
             display: flex;
             z-index: 2;
             position: fixed;
-            align-items: flex-end;
+            align-items: center;
             padding-top: var(--dl-space-space-unitandhalf);
             padding-left: var(--dl-space-space-tripleunit);
             margin-bottom: 0.75rem;
             padding-right: var(--dl-space-space-tripleunit);
             flex-direction: row;
             padding-bottom: var(--dl-space-space-unitandhalf);
-            justify-content: space-between;
+            justify-content: flex-start;
             background-color: #ffffff;
-          }
-          .image {
-            width: 100px;
-            align-self: center;
-            object-fit: cover;
-          }
-          .link {
-            display: contents;
-          }
-          .heading {
-            color: var(--dl-color-secondary-400);
-            font-weight: 700;
-            text-decoration: none;
-          }
-          .heading1 {
-            color: #000000;
-            font-weight: 700;
-          }
-          .heading2 {
-            color: #000000;
-            font-weight: 700;
-          }
-          .heading3 {
-            color: #000000;
-            font-weight: 700;
-          }
-          .heading4 {
-            color: #000000;
-            font-weight: 700;
           }
           .mobile-menu {
             top: 0px;
@@ -147,10 +160,10 @@ const Header = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .link1 {
+          .link {
             display: contents;
           }
-          .heading5 {
+          .heading {
             color: var(--dl-color-secondary-400);
             font-weight: 700;
             margin-right: var(--dl-space-space-unit);
@@ -172,7 +185,7 @@ const Header = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .link2 {
+          .link1 {
             display: contents;
           }
           .container {
@@ -189,9 +202,6 @@ const Header = (props) => {
           .text {
             color: var(--dl-color-secondary-400);
             margin-left: var(--dl-space-space-halfunit);
-          }
-          .link3 {
-            display: contents;
           }
           .container1 {
             display: flex;
@@ -240,6 +250,110 @@ const Header = (props) => {
             margin-right: 0.75rem;
             margin-bottom: var(--dl-space-space-halfunit);
           }
+          .header1 {
+            top: -20px;
+            left: -2px;
+            width: 100%;
+            margin: auto;
+            display: flex;
+            position: absolute;
+            max-width: 1400px;
+            align-self: stretch;
+            align-items: flex-start;
+            padding-top: 32px;
+            padding-left: 48px;
+            padding-right: 48px;
+            padding-bottom: 32px;
+            justify-content: space-between;
+          }
+          .container2 {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+          }
+          .image {
+            width: 59px;
+            height: 50px;
+          }
+          .nav {
+            display: flex;
+            align-items: center;
+            padding-left: 32px;
+            flex-direction: row;
+          }
+          .btn-group {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+          }
+          .link2 {
+            color: #08cb00;
+            text-align: center;
+            font-weight: 700;
+            padding-left: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .burger-menu {
+            display: none;
+          }
+          .icon15 {
+            width: 16px;
+            height: 16px;
+            display: none;
+          }
+          .mobile-menu1 {
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100vh;
+            display: none;
+            padding: 32px;
+            z-index: 100;
+            position: absolute;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #fff;
+          }
+          .nav1 {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .container3 {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 48px;
+            justify-content: space-between;
+          }
+          .image1 {
+            height: 2rem;
+          }
+          .close-mobile-menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .icon17 {
+            width: 16px;
+            height: 16px;
+          }
+          .icon19 {
+            width: 16px;
+            height: 16px;
+            margin-right: 32px;
+          }
+          .icon21 {
+            width: 16px;
+            height: 16px;
+            margin-right: 32px;
+          }
+          .icon23 {
+            width: 16px;
+            height: 16px;
+          }
           .rootClassName {
             margin-bottom: 0px;
           }
@@ -272,25 +386,31 @@ const Header = (props) => {
               margin-top: 0px;
               margin-bottom: 0px;
             }
+            .header1 {
+              position: static;
+            }
+            .icon15 {
+              display: flex;
+            }
           }
           @media (max-width: 767px) {
             .header {
               background-color: var(--dl-color-gray-white);
             }
-            .heading {
-              color: var(--dl-color-secondary-400);
+            .header1 {
+              padding-left: 32px;
+              padding-right: 32px;
             }
-            .heading1 {
-              color: var(--dl-color-secondary-400);
+            .nav {
+              display: none;
             }
-            .heading2 {
-              color: var(--dl-color-secondary-400);
+            .btn-group {
+              display: none;
             }
-            .heading3 {
-              color: var(--dl-color-secondary-400);
-            }
-            .heading4 {
-              color: var(--dl-color-secondary-400);
+            .burger-menu {
+              display: flex;
+              align-items: center;
+              justify-content: center;
             }
             .rootClassName {
               margin-bottom: 0px;
@@ -300,35 +420,12 @@ const Header = (props) => {
             .header {
               justify-content: space-between;
             }
-            .image {
-              width: 75px;
-              height: 75px;
-              align-self: center;
+            .header1 {
+              padding: var(--dl-space-space-unit);
+              position: static;
             }
-            .heading {
-              color: #000000;
-              font-size: small;
-              align-self: center;
-            }
-            .heading1 {
-              color: #000000;
-              font-size: small;
-              align-self: center;
-            }
-            .heading2 {
-              color: #000000;
-              font-size: small;
-              align-self: center;
-            }
-            .heading3 {
-              color: #000000;
-              font-size: small;
-              align-self: center;
-            }
-            .heading4 {
-              color: #000000;
-              font-size: small;
-              align-self: center;
+            .mobile-menu1 {
+              padding: 16px;
             }
             .rootClassName3 {
               width: 100%;
@@ -344,26 +441,12 @@ const Header = (props) => {
 Header.defaultProps = {
   rootClassName: '',
   heading11: 'NOTUS PRO',
-  heading121: 'COVID',
-  heading124: 'BOOK NOW',
-  image_src: '/playground_assets/logo-200h.png',
-  heading123: 'FAQ',
-  image_alt: 'image',
-  heading12: 'ABOUT',
-  heading13: 'HOME',
   heading1: 'ESCAPE HILO',
 }
 
 Header.propTypes = {
   rootClassName: PropTypes.string,
   heading11: PropTypes.string,
-  heading121: PropTypes.string,
-  heading124: PropTypes.string,
-  image_src: PropTypes.string,
-  heading123: PropTypes.string,
-  image_alt: PropTypes.string,
-  heading12: PropTypes.string,
-  heading13: PropTypes.string,
   heading1: PropTypes.string,
 }
 

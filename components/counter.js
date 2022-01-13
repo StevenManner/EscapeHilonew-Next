@@ -32,8 +32,8 @@ const Counter = (props) => {
 }
 
 Counter.defaultProps = {
-  type: 'Friends',
-  number: '22',
+  type: 'Five Star Google Map Reviews',
+  number: '100+',
 }
 
 Counter.propTypes = {

@@ -4,24 +4,20 @@ import Head from 'next/head'
 import Header from '../components/header'
 import Footer from '../components/footer'
 
-const BookARoom = () => {
+const Contact = () => {
   return (
     <>
       <div className="container">
         <Head>
-          <title>Book A Room - EscapeHilonew</title>
-          <meta property="og:title" content="Book A Room - EscapeHilonew" />
+          <title>Contact - EscapeHilonew</title>
+          <meta property="og:title" content="Contact - EscapeHilonew" />
         </Head>
-        <Header rootClassName="rootClassName2"></Header>
         <div className="section1">
+          <Header rootClassName="rootClassName4"></Header>
           <div className="container1">
             <div className="container2">
-              <span className="text text2XL">MAKE A RESERVATION</span>
-              <iframe
-                src="https://fareharbor.com/embeds/book/escapehilo/items/58566/?full-items=yes&amp;u=84441f3f-1c27-44c8-9146-8ef90bd95998&amp;from-ssl=yes&amp;back=https://www.escapehilo.com/"
-                allowFullScreen="true"
-                className="iframe"
-              ></iframe>
+              <h3 className="text healine">CONTACT</h3>
+              <form enctype="text/plain" className="form"></form>
             </div>
           </div>
           <img
@@ -54,7 +50,6 @@ const BookARoom = () => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            position: relative;
             align-items: center;
             padding-top: var(--dl-space-space-tripleunit);
             padding-left: var(--dl-space-space-doubleunit);
@@ -70,9 +65,10 @@ const BookARoom = () => {
             margin-top: var(--dl-space-space-tripleunit);
             align-items: center;
             flex-direction: column;
+            justify-content: center;
           }
           .container2 {
-            width: 100%;
+            width: 66%;
             display: flex;
             align-items: center;
             padding-left: var(--dl-space-space-unit);
@@ -80,11 +76,12 @@ const BookARoom = () => {
             flex-direction: column;
           }
           .text {
-            color: #000000;
+            color: var(--dl-color-secondary-400);
+            text-align: center;
           }
-          .iframe {
+          .form {
             width: 100%;
-            height: 1200px;
+            height: 100px;
           }
           .image {
             top: auto;
@@ -115,10 +112,6 @@ const BookARoom = () => {
             padding-bottom: var(--dl-space-space-doubleunit);
           }
           @media (max-width: 767px) {
-            .section1 {
-              padding-left: var(--dl-space-space-doubleunit);
-              padding-right: var(--dl-space-space-doubleunit);
-            }
             .container2 {
               width: 100%;
             }
@@ -129,4 +122,4 @@ const BookARoom = () => {
   )
 }
 
-export default BookARoom
+export default Contact
