@@ -499,10 +499,10 @@ Footer.defaultProps = {
   image_src1: '/playground_assets/Phone%20Icon1-200h.png',
   image_src2: 'd1a66251-1259-4713-8dca-e6d13de2b7ce',
   text21: 'Hours of Operation',
+  rootClassName: '',
   image_src21: 'd1a66251-1259-4713-8dca-e6d13de2b7ce',
   image_alt2: 'image',
   image_alt1: 'image',
-  rootClassName: '',
 }
 
 Footer.propTypes = {
@@ -511,10 +511,10 @@ Footer.propTypes = {
   image_src1: PropTypes.string,
   image_src2: PropTypes.string,
   text21: PropTypes.string,
+  rootClassName: PropTypes.string,
   image_src21: PropTypes.string,
   image_alt2: PropTypes.string,
   image_alt1: PropTypes.string,
-  rootClassName: PropTypes.string,
 }
 
 export default Footer

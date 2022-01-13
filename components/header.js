@@ -16,7 +16,7 @@ const Header = (props) => {
       >
         <div data-type="MobileMenu" className="mobile-menu">
           <div className="top">
-            <Link href="/about">
+            <Link href="/f-a-q">
               <a className="link">
                 <h1 className="heading textSM">{props.heading11}</h1>
               </a>
@@ -71,10 +71,9 @@ const Header = (props) => {
             />
             <div className="nav">
               <NavigationLinks
-                rootClassName="rootClassName12"
-                text="Home"
                 text3="About"
                 text4="FAQ"
+                rootClassName="rootClassName12"
               ></NavigationLinks>
             </div>
           </div>
